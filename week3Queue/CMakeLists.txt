@@ -1,0 +1,9 @@
+cmake_minimum_required(VERSION 3.21)
+project(week3Queue)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(Austria_linearArrayImplementation Austria_linearArrayImplementation.cpp)
+add_executable(Austria_circularArrayImplementation Austria_circularArrayImplementation.cpp)
+add_executable(Austria_LinkedListImplementation Austria_LinkedListImplementation.cpp)
+add_executable(Austria_BST Austria_BST.cpp)
