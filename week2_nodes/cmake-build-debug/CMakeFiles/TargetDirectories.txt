@@ -1,0 +1,3 @@
+C:/Users/kaloy/Documents/GitHub/CIT.006/week2_nodes/cmake-build-debug/CMakeFiles/week2_nodes.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/week2_nodes/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/week2_nodes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
