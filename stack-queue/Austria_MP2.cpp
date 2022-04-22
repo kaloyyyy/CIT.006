@@ -10,16 +10,18 @@ struct node {
 bool isEmpty();
 void buyFunction(int share, int price);
 void sellFunction(int sell, int price);
-void printShare();
-//serves as the head of the linked list
+void checkShares();
+//declare nodes and variables
 node *front = nullptr;
 node *rear = nullptr;
 int capital, totalShare;
 
 int main() {
+    //declare int and char for the inputs.
     int share, price, sell;
     char choice = 'i';
     cout << "Linked list implementation\n\n";
+    //switch statement inside a do while loop.
     do {
         cout << "a.buy shares\nb.sell shares\nc.check shares\nd.exit\n";
         cin >> choice;
@@ -37,11 +39,18 @@ int main() {
                 cout << "enter share price\n";
                 cin >> price;
                 sellFunction(sell, price);
+                if (capital > 0) {
+                    cout << "profit";
+                } else if (capital == 0) {
+
+                } else {
+                    cout << "loss";
+                }
                 cout << "total shares: " << totalShare << endl;
                 cout << "capital: " << capital << " PHP" << endl << endl << endl;
                 break;
             case 'c':
-                printShare();
+                checkShares();
                 break;
             default:
                 cout << "enter a valid choice\n";
@@ -51,69 +60,72 @@ int main() {
     return 0;
 }
 
+//checking if front and rear is NULL
 bool isEmpty() {
-    if (front == nullptr && rear == nullptr) {   //checking if front and rear is NULL
+    if (front == nullptr && rear == nullptr) {
         return true;
     } else {
         return false;
     }
 }
 
-void buyFunction(int share, int price) {//adds a node to the queue
+//buy function AKA enqueue function
+void buyFunction(int share, int price) {
     node *temp = front;
     node *newNode = new node;
     newNode->share = share;
     newNode->price = price;
     newNode->next = nullptr;
+    //newNode becomes the front node if not, then traverses to the last then adds it.
     if (isEmpty()) {
-        front = newNode;//sets the new and first node as the head/front
+        front = newNode;
     } else {
         while (temp->next != nullptr) {
-            temp = temp->next;//traverse the linked list
+            temp = temp->next;
         }
-        temp->next = newNode;//add new node to the list
+        temp->next = newNode;
     }
     cout << "shares obtained!\n";
     totalShare = totalShare + newNode->share;
-    printShare();
+    checkShares();
 }
 
-void sellFunction(int sell, int price) {//removes the first node of the queue or linked list
+//sellFunction AKA dequeue function with extra steps. sometimes does not dequeue if (shareSell < front->share).
+void sellFunction(int sell, int price) {
     int prevPrice;
     int shareSell = sell;
     if (isEmpty()) {
         cout << "portfolio is empty!\n";
     } else if (sell > totalShare) {
         cout << "Not enough shares to sell\n";
-        printShare();
+        checkShares();
     } else {
-        totalShare = totalShare - shareSell;
-        // Move the head pointer to the next node
+        totalShare = totalShare - sell;
         do {
-            if (shareSell >= front->share) {
+            if (sell >= front->share) {
+                //dequeue
                 node *temp = front;
-                //insert calculations
-                prevPrice = temp->price;
-                capital = capital + (front->share * (price - prevPrice));
-                shareSell = shareSell - front->share;
+                capital = capital + (front->share * (price - front->price));
+                sell = sell - front->share;
                 front = front->next;
                 delete temp;
-            } else if (shareSell < front->share) {
-                capital = capital + (front->share * (price - front->price));
-                front->share = front->share - shareSell;
+            } else if (sell < front->share) {
+                //does not dequeue but subtracts the shares in the front node.
+                capital = capital + (sell * (price - front->price));
+                front->share = front->share - sell;
                 return;
             }
         } while (sell != 0);
     }
 }
 
-void printShare() {
+void checkShares() {
     if (isEmpty()) {
         cout << "portfolio is empty!\n";
     } else {
         node *temp = front;
         cout << endl << "total shares: " << totalShare << "\nportfolio: \n";
-        cout << "share count  |  share price\n";
+        cout << "count |  price\n";
         while (temp != nullptr) {
             cout << temp->share << "  |  " << temp->price << endl;
             temp = temp->next;
