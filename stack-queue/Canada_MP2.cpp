@@ -119,7 +119,7 @@ int main()
     char choice = 'x';
     do
     {
-        cout << "a.buy  b.sell   c.Front   d.exit\n";
+        cout << "a.buy  b.sell   c.check   d.exit\n";
         cin >> choice;
         switch (choice)
         {
@@ -140,6 +140,7 @@ int main()
                 cout<<"profit: "<<gainLoss<<endl;
                 break;
             case 'c':
+                printShare();
                 break;
             default:
                 cout << "enter a valid choice\n";
