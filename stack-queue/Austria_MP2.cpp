@@ -39,15 +39,16 @@ int main() {
                 cout << "enter share price\n";
                 cin >> price;
                 sellFunction(sell, price);
-                if (capital > 0) {
-                    cout << "profit";
-                } else if (capital == 0) {
-
-                } else {
-                    cout << "loss";
-                }
                 cout << "total shares: " << totalShare << endl;
-                cout << "capital: " << capital << " PHP" << endl << endl << endl;
+                cout << "capital: " << capital << " PHP" << endl << "summary: ";
+                if (capital > 0) {
+                    cout << "profit\n";
+                } else if (capital == 0) {
+                    cout <<"no loss nor gains\n";
+                } else {
+                    cout << "loss\n";
+                }
+                checkShares();
                 break;
             case 'c':
                 checkShares();
@@ -92,13 +93,18 @@ void buyFunction(int share, int price) {
 
 //sellFunction AKA dequeue function with extra steps. sometimes does not dequeue if (shareSell < front->share).
 void sellFunction(int sell, int price) {
-    int prevPrice;
-    int shareSell = sell;
     if (isEmpty()) {
-        cout << "portfolio is empty!\n";
+        cout << "\nportfolio is empty!\n";
     } else if (sell > totalShare) {
         cout << "Not enough shares to sell\n";
-        checkShares();
+        cout <<"Do you want to sell all shares? y/n\n";
+        char yesNo;
+        cin >> yesNo;
+        if(yesNo == 'y'){
+            //set to sell equal to total shares so that it recurse infinitely
+            sell = totalShare;
+            sellFunction(sell, price);
+        }
     } else {
         totalShare = totalShare - sell;
         do {
@@ -121,7 +127,7 @@ void sellFunction(int sell, int price) {
 
 void checkShares() {
     if (isEmpty()) {
-        cout << "portfolio is empty!\n";
+        cout << "\nportfolio is empty!\n";
     } else {
         node *temp = front;
         cout << endl << "total shares: " << totalShare << "\nportfolio: \n";

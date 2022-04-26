@@ -12,15 +12,15 @@ node *top;
 void convert(int input, int base);
 char reVal(int num);
 void push(char input);
-void display();
 void pop();
+void reverse_order(node *p);
 
 int main() {
     char exit = 'n';
     int num;
     int base;
     do {
-        cout << "enter a base-10 integer\n";
+        cout << "\nenter a base-10 integer\n";
         cin >> num;
         cout << "choose a base\na. binary\nb. octal\nc. hexadecimal\nd. exit" << endl;
         cin >> exit;
@@ -58,33 +58,31 @@ char reVal(int num) {
 // to a base 'base'
 void convert(int input, int base) {
     int tempNum;
-    char val;
     // Convert input number is given
     // base by repeatedly dividing it
     // by base and taking remainder
     while (input > 0) {
         tempNum = input % base;
-        val = reVal(tempNum);
-        input /= base;
+        char val = reVal(tempNum);
         push(val);
+        input = input / base;
     }
-    display();
+    reverse_order(head);
 }
 
-//displays each node from head to top
-void display() {
-    node *temp = head;
-    cout << endl << "stack: " << endl;
-    while (temp != nullptr) {
-        pop();
-        temp = temp->next;
+//displays each node from top to head by using recursion
+void reverse_order(node *p) {
+    if (p == nullptr) {
+        return;
     }
+    reverse_order(p->next);
+    cout << top->num;
+    pop();
 }
 
 //print then pop the result
 void pop() {
-    if (head->next == nullptr) {
-        cout << head->num;
+    if (head->next == nullptr) {//delete head and top node.
         head = nullptr;
         top = nullptr;
     } else {
@@ -92,15 +90,10 @@ void pop() {
         while (temp->next->next != nullptr) {
             temp = temp->next;
         }
-        cout << top->num;
-        //second to the last becomes the top node
-        // next or last node becomes "lastNode"
-        //next becomes null
-        //free lastNode
-        top = temp;
-        node *lastNode = temp->next;
-        temp->next = nullptr;
-        free(lastNode);
+        top = temp;//second to the last becomes the top node
+        node *lastNode = temp->next;//next or last node becomes "lastNode"
+        temp->next = nullptr;//next becomes null
+        free(lastNode);//free lastNode
     }
 }
 
@@ -110,6 +103,7 @@ void push(char input) {
     newNode->num = input;
     newNode->next = nullptr;
     //sets the new and first node as the head
+    top = newNode;
     if (head == nullptr) {
         head = newNode;
     } else {
@@ -120,5 +114,4 @@ void push(char input) {
         }
         temp->next = newNode;
     }
-    top = newNode;
 }
