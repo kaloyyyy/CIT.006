@@ -9,13 +9,13 @@ using namespace std;
 
 void sort() {
 
-    // find array's length
     char choice;
     do {
         int data[] = {-2, 420, 0, 110, -9, 360, -69};
         int arr[] = {4, 2, 2, 8, 3, 3, 1};
         int size = sizeof(data) / sizeof(data[0]);
-        cout << "a. bubble    b. count    c. quick    d. selection    e. radix    f. selection    g. merge    x. main menu\n";
+        cout
+                << "a. bubble    b. count    c. quick    d. selection    e. radix    f. selection    g. merge    x. main menu\n";
         cin >> choice;
         switch (choice) {
             case 'a':
@@ -51,7 +51,7 @@ void sort() {
                 printArray(arr, size);
                 radixSort(arr, size);
                 cout << "Radix Sorted Array in Ascending Order:\n";
-                printArray(radArr, size);
+                printArray(arr, size);
                 break;
             case 'f':
                 cout << "Unsorted Array:\n";
@@ -60,14 +60,15 @@ void sort() {
                 cout << "insertion Sorted Array in Ascending Order:\n";
                 printArray(data, size);
                 break;
-            default:
+
             case 'g':
                 cout << "Unsorted Array:\n";
                 printArray(data, size);
-                mergeSort(data, 0, size -1);
+                mergeSort(data, 0, size - 1);
                 cout << "Merge Sorted Array in Ascending Order:\n";
                 printArray(data, size);
                 break;
+            default:
                 cout << "invalid choice\n";
                 break;
         }
@@ -150,8 +151,9 @@ void countSort(int array[], int size) {
 
     // Find the largest element of the array
     for (int i = 1; i < size; i++) {
-        if (array[i] > max)
+        if (array[i] > max) {
             max = array[i];
+        }
     }
 
     // Initialize count array with all zeros.
@@ -227,6 +229,7 @@ int partition(int array[], int low, int high) {
     // return the partition point
     return (i + 1);
 }
+
 // function to swap elements
 void swap(int *a, int *b) {
     int t = *a;
@@ -241,8 +244,9 @@ void selectionSort(int array[], int size) {
 
             // To sort in descending order, change > to < in this line.
             // Select the minimum element in each loop.
-            if (array[i] < array[min_idx])
+            if (array[i] < array[min_idx]) {
                 min_idx = i;
+            }
         }
 
         // put min at the correct position
@@ -253,9 +257,11 @@ void selectionSort(int array[], int size) {
 // Function to get the largest element from an array
 int getMax(int array[], int n) {
     int max = array[0];
-    for (int i = 1; i < n; i++)
-        if (array[i] > max)
+    for (int i = 1; i < n; i++) {
+        if (array[i] > max) {
             max = array[i];
+        }
+    }
     return max;
 }
 
@@ -265,16 +271,19 @@ void countingSort(int array[], int size, int place) {
     int output[10];
     int count[max];
 
-    for (int i = 0; i < max; ++i)
+    for (int i = 0; i < max; ++i) {
         count[i] = 0;
+    }
 
     // Calculate count of elements
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size; i++) {
         count[(array[i] / place) % 10]++;
+    }
 
     // Calculate cumulative count
-    for (int i = 1; i < max; i++)
+    for (int i = 1; i < max; i++) {
         count[i] += count[i - 1];
+    }
 
     // Place the elements in sorted order
     for (int i = size - 1; i >= 0; i--) {
@@ -282,8 +291,9 @@ void countingSort(int array[], int size, int place) {
         count[(array[i] / place) % 10]--;
     }
 
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < size; i++) {
         array[i] = output[i];
+    }
 }
 
 // Main function to implement radix sort
@@ -292,9 +302,11 @@ void radixSort(int array[], int size) {
     int max = getMax(array, size);
 
     // Apply counting sort to sort elements based on place value.
-    for (int place = 1; max / place > 0; place *= 10)
+    for (int place = 1; max / place > 0; place *= 10) {
         countingSort(array, size, place);
+    }
 }
+
 void insertionSort(int array[], int size) {
     for (int step = 1; step < size; step++) {
         int key = array[step];
@@ -321,10 +333,12 @@ void merge(int arr[], int p, int q, int r) {
     std::vector<int> L(n1);
     std::vector<int> M(n2);
 
-    for (int i = 0; i < n1; i++)
+    for (int i = 0; i < n1; i++) {
         L[i] = arr[p + i];
-    for (int j = 0; j < n2; j++)
+    }
+    for (int j = 0; j < n2; j++) {
         M[j] = arr[q + 1 + j];
+    }
 
     // Maintain current index of sub-arrays and main array
     int i, j, k;
