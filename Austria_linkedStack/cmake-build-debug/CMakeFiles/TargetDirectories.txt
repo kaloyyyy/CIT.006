@@ -1,0 +1,4 @@
+C:/Users/kaloy/Documents/GitHub/CIT.006/Austria_linkedStack/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/Austria_linkedStack/cmake-build-debug/CMakeFiles/Austria_linkedStack.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/Austria_linkedStack/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/Austria_linkedStack/cmake-build-debug/CMakeFiles/test.dir

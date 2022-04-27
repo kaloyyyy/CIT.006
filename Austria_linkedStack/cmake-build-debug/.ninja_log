@@ -1,0 +1,15 @@
+# ninja log v5
+9	972	6710651393908719	CMakeFiles/Austria_linkedStack.dir/test.cpp.obj	ca1db8365eeaf91e
+0	686	6710648695821310	CMakeFiles/Austria_linkedStack.dir/main.cpp.obj	4d56c270fa025a10
+1	302	6710651776817773	Austria_linkedStack.exe	defa142a3ce98ad4
+31	2269	6710639404758269	CMakeFiles/Austria_linkedStack.dir/copy.cpp.obj	7fd87e3e3a5e16e1
+0	537	6710646981869695	CMakeFiles/Austria_LinkedStack.dir/copy.cpp.obj	d141b19d020f72b2
+0	194	6710654847907737	build.ninja	3d8111c4842ea4d5
+1	535	6710646671510310	CMakeFiles/copy.dir/copy.cpp.obj	73b49ca91e549775
+536	1148	6710646677428639	copy.exe	69075b21e524ad9c
+0	551	6710654243609217	CMakeFiles/test.dir/test.cpp.obj	cdada802a5993e11
+552	1092	6710654248749584	test.exe	4151e4f4969bf0f2
+1	943	6721111218338770	CMakeFiles/Austria_linkedStack.dir/main.cpp.obj	4d56c270fa025a10
+943	1437	6721111222178849	Austria_linkedStack.exe	defa142a3ce98ad4
+1	737	6721112035141238	CMakeFiles/Austria_linkedStack.dir/main.cpp.obj	4d56c270fa025a10
+738	1023	6721112037471419	Austria_linkedStack.exe	defa142a3ce98ad4

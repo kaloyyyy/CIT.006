@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "week3Queue",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Austria_BST::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Austria_BST-Debug-8e4d14aa410ef1a7a35f.json",
+					"name" : "Austria_BST",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Austria_LinkedListImplementation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Austria_LinkedListImplementation-Debug-373ab0f7e5677ec73006.json",
+					"name" : "Austria_LinkedListImplementation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Austria_circularArrayImplementation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Austria_circularArrayImplementation-Debug-6f606277338a0aeb7bf8.json",
+					"name" : "Austria_circularArrayImplementation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Austria_linearArrayImplementation::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Austria_linearArrayImplementation-Debug-acc2b8ab90ec5395d70e.json",
+					"name" : "Austria_linearArrayImplementation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kaloy/Documents/GitHub/CIT.006/week3Queue/cmake-build-debug",
+		"source" : "C:/Users/kaloy/Documents/GitHub/CIT.006/week3Queue"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -15,7 +15,7 @@ void sort() {
         int arr[] = {4, 2, 2, 8, 3, 3, 1};
         int size = sizeof(data) / sizeof(data[0]);
         cout
-                << "a. bubble    b. count    c. quick    d. selection    e. radix    f. selection    g. merge    x. main menu\n";
+                << "a. bubble    b. count    c. quick    d. selection    e. radix    f. insertion    g. merge    x. main menu\n";
         cin >> choice;
         switch (choice) {
             case 'a':
@@ -189,12 +189,12 @@ void quickSort(int array[], int low, int high) {
 
         // find the pivot element such that
         // elements smaller than pivot are on left of pivot
-        // elements greater than pivot are on righ of pivot
+        // elements greater than pivot are on right of pivot
         int pi = partition(array, low, high);
 
         // recursive call on the left of pivot
         quickSort(array, low, pi - 1);
-
+        printArray(array, 7);
         // recursive call on the right of pivot
         quickSort(array, pi + 1, high);
     }
@@ -316,6 +316,7 @@ void insertionSort(int array[], int size) {
         // it is found.
         // For descending order, change key<array[j] to key>array[j].
         while (key < array[j] && j >= 0) {
+            printArray(array,size);
             array[j + 1] = array[j];
             --j;
         }
@@ -332,12 +333,15 @@ void merge(int arr[], int p, int q, int r) {
 
     std::vector<int> L(n1);
     std::vector<int> M(n2);
-
+    cout <<"\nL[i]: ";
     for (int i = 0; i < n1; i++) {
         L[i] = arr[p + i];
+        cout<<L[i]<<", ";
     }
+    cout <<"\nM[i]: ";
     for (int j = 0; j < n2; j++) {
         M[j] = arr[q + 1 + j];
+        cout<<M[j]<<", ";
     }
 
     // Maintain current index of sub-arrays and main array
@@ -345,7 +349,7 @@ void merge(int arr[], int p, int q, int r) {
     i = 0;
     j = 0;
     k = p;
-
+    cout<<endl;
     // Until we reach either end of either L or M, pick larger among
     // elements L and M and place them in the correct position at A[p..r]
     while (i < n1 && j < n2) {
@@ -356,18 +360,22 @@ void merge(int arr[], int p, int q, int r) {
             arr[k] = M[j];
             j++;
         }
+        cout<<arr[k]<<", ";
         k++;
     }
 
     // When we run out of elements in either L or M,
     // pick up the remaining elements and put in A[p..r]
+    cout <<"\nL[i]: ";
     while (i < n1) {
+        cout<<L[i]<<", ";
         arr[k] = L[i];
         i++;
         k++;
     }
-
+    cout <<"\nM[i]: ";
     while (j < n2) {
+        cout<<M[j]<<", ";
         arr[k] = M[j];
         j++;
         k++;
@@ -379,7 +387,6 @@ void mergeSort(int arr[], int l, int r) {
     if (l < r) {
         // m is the point where the array is divided into two subarrays
         int m = l + (r - l) / 2;
-
         mergeSort(arr, l, m);
         mergeSort(arr, m + 1, r);
 

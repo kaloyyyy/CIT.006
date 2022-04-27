@@ -7,7 +7,8 @@ using namespace std;
 
 int main() {
     cout << "what is your topic?" << endl;
-    char choice = 'n';
+    char choice =
+            'n';
     do {
         cout << "\n\na. tree traversal    b. AVL Tree    c. sorting algorithms    x. exit\n";
         cin >> choice;

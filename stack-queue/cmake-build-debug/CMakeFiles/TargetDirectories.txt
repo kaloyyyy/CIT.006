@@ -1,0 +1,6 @@
+C:/Users/kaloy/Documents/GitHub/CIT.006/stack-queue/cmake-build-debug/CMakeFiles/Austria_MP2.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/stack-queue/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/stack-queue/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/stack-queue/cmake-build-debug/CMakeFiles/Canada_MP2.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/stack-queue/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/stack-queue/cmake-build-debug/CMakeFiles/main.dir

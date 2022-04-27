@@ -1,0 +1,11 @@
+# ninja log v5
+1	212	6719699070684412	build.ninja	7356511ee97bbee4
+704	1075	6719698347761900	binarySearchTree.exe	2940956638e2d815
+1	270	6711144316271057	week3Queue.exe	13c4176afedc3749
+862	1214	6711146594652827	Austria_linearArrayImplementation.exe	8b0113efbbee3739
+1	926	6711239151472373	CMakeFiles/Austria_LinkedListImplementation.dir/Austria_LinkedListImplementation.cpp.obj	d89f4e6c1fb1ea22
+1	861	6711146591190247	CMakeFiles/Austria_linearArrayImplementation.dir/Austria_linearArrayImplementation.cpp.obj	e962b3a2b44dc804
+0	667	6711162507033899	CMakeFiles/Austria_circularArrayImplementation.dir/Austria_circularArrayImplementation.cpp.obj	cceb1bdd3fde520a
+668	933	6711162509423920	Austria_circularArrayImplementation.exe	fea8f335fe3102
+927	2147	6711239161802136	Austria_LinkedListImplementation.exe	3854e836351326f2
+1	702	6719698344661681	CMakeFiles/binarySearchTree.dir/binarySearchTree.cpp.obj	ed77ab7403132840
