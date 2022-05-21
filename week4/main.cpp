@@ -3,43 +3,48 @@
 using namespace std;
 int main()
 {
-    int st[5];
-    int stSize = 0; //substitute for st.size
+    int stack[10];
+    int stSize = 0; //substitute for stack.size
     char choice;
-    do{//loops the switch
+    //loops the switch
+    do{
         cout<<"a.push\nb.pop\nc.top\nd.display\ne.exit\n\n";
         cin>>choice;
-        switch(choice){//for the selection menu
-            case 'a'://limited the stack inputs by 5
-                if(stSize==5){
+        switch(choice){
+            //limited the stack inputs by 10
+            case 'a':
+                if(stSize==10){
                    cout<<"stack is already full\n";
                 }else{
                     int x;
                     cout<<"enter a value to push into the stack: \n";
                     cin>>x;
-                    st[stSize] = x;//substitute for st.push();
+                    stack[stSize] = x;//substitute for st.push();
                     cout<<"pushed\n\n";
                     stSize++;
                 }
                 break;
             case 'b':
-                if(stSize==0){//pops when the stack is not empty
+                //pops when the stack is not empty
+                if(stSize==0){
                     cout<<"stack is still empty\n";
                 }else{
-                    st[stSize] = NULL; //these two lines is substitute for st.pop();
+                    //pop method
+                    stack[stSize] = NULL;
                     stSize--;
                     cout<<"popped\n\n";
                 }
                 break;
-            case'c'://displays the top value if there exists
+            case'c':
+                //display top of stack
                 if(stSize==0) {
                     cout << "stack is empty\n";
                 }else{
-                    cout << "\n st.top() : " << st[stSize-1]<<endl;
+                    cout << "\n stack.top() : " << stack[stSize-1]<<endl;
                 }
                 break;
             case'd'://display the current size of the stack.
-                cout << "\n st.size() : " <<stSize<<endl;
+                cout << "\n stack.size() : " <<stSize<<endl;
                 break;
         }
     }while(choice!='e');

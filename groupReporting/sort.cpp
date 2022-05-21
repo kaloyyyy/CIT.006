@@ -11,8 +11,8 @@ void sort() {
 
     char choice;
     do {
-        int data[] = {-2, 420, 0, 110, -9, 360, -69};
-        int arr[] = {4, 2, 2, 8, 3, 3, 1};
+        int data[] = {1, 2, 4, 3};
+        int arr[] = {1, 5, 3, 8, 2};
         int size = sizeof(data) / sizeof(data[0]);
         cout
                 << "a. bubble    b. count    c. quick    d. selection    e. radix    f. insertion    g. merge    x. main menu\n";
@@ -131,12 +131,12 @@ void bubbleSort(int array[], int size) {
                 swapped = 1;
             }
         }
-
         // no swapping means the array is already sorted
         // so no need of further comparison
         if (swapped == 0) {
             break;
         }
+        printArray(array, size);
     }
 }
 
@@ -181,6 +181,7 @@ void countSort(int array[], int size) {
     // Copy the sorted elements into original array
     for (int i = 0; i < size; i++) {
         array[i] = output[i];
+        printArray(array, size);
     }
 }
 
@@ -244,13 +245,14 @@ void selectionSort(int array[], int size) {
 
             // To sort in descending order, change > to < in this line.
             // Select the minimum element in each loop.
-            if (array[i] < array[min_idx]) {
+            if (array[i] > array[min_idx]) {
                 min_idx = i;
             }
         }
 
         // put min at the correct position
         swap(&array[min_idx], &array[step]);
+        printArray(array, size);
     }
 }
 

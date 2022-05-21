@@ -41,6 +41,13 @@ avlNode *rightRotate(avlNode *y) {
     x->height = max(height(x->left),
                     height(x->right)) +
                 1;
+    cout << "right rotate\n";
+    cout << "root:\n";
+    if (x != nullptr) {
+        cout << x->key << endl;
+        printTree(x->left, "  ", false);
+        printTree(x->right, "  ", true);
+    }
     return x;
 }
 
@@ -56,6 +63,13 @@ avlNode *leftRotate(avlNode *x) {
     y->height = max(height(y->left),
                     height(y->right)) +
                 1;
+    cout << "left rotate\n";
+    cout << "root:\n";
+    if (y != nullptr) {
+        cout << y->key << endl;
+        printTree(y->left, "  ", false);
+        printTree(y->right, "  ", true);
+    }
     return y;
 }
 
@@ -118,22 +132,31 @@ avlNode *nodeWithMimumValue(avlNode *node) {
 // Delete a node
 avlNode *deleteNode(avlNode *root, int key) {
     // Find the node and delete it
+    cout << root->key << " and " << key << endl;
     if (root == NULL) {
         return root;
     }
     if (key < root->key) {
+        cout << "traverse left\n";
+        cout << root->key << endl;
         root->left = deleteNode(root->left, key);
     } else if (key > root->key) {
+        cout << "traverse right\n";
+        cout << root->key << endl;
         root->right = deleteNode(root->right, key);
     } else {
-        if ((root->left == NULL) ||
-            (root->right == NULL)) {
+        if ((root->left == NULL) || (root->right == NULL)) {
+            cout << "if ((root->left == NULL) || (root->right == NULL))\n";
             avlNode *temp = root->left ? root->left : root->right;
+            cout << "avlNode *temp = root->left ? root->left : root->right;\n";
             if (temp == NULL) {
+                cout << "temp is null\n";
                 temp = root;
                 root = NULL;
             } else {
+                cout << "root not empty..." << root->key;
                 *root = *temp;
+                cout << "\nroot = temp..." << root->key << endl;
             }
             free(temp);
         } else {
@@ -155,17 +178,21 @@ avlNode *deleteNode(avlNode *root, int key) {
     int balanceFactor = getBalanceFactor(root);
     if (balanceFactor > 1) {
         if (getBalanceFactor(root->left) >= 0) {
+            cout << "going right rotate\n";
             return rightRotate(root);
         } else {
             root->left = leftRotate(root->left);
+            cout << "left rotate then going right rotate\n";
             return rightRotate(root);
         }
     }
     if (balanceFactor < -1) {
         if (getBalanceFactor(root->right) <= 0) {
+            cout << "going left rotate\n";
             return leftRotate(root);
         } else {
             root->right = rightRotate(root->right);
+            cout << "going left rotate then right\n";
             return leftRotate(root);
         }
     }
@@ -203,7 +230,7 @@ void avlMenu() {
                 cout << "node added\n";
                 break;
             case 'b':
-                cout<<"root:\n";
+                cout << "root:\n";
                 if (root != nullptr) {
                     cout << root->key << endl;
                     printTree(root->left, "  ", false);
@@ -211,7 +238,7 @@ void avlMenu() {
                 }
                 break;
             case 'c':
-                cout<<"root:\n";
+                cout << "root:\n";
                 if (root != nullptr) {
                     cout << root->key << endl;
                     printTree(root->left, "  ", false);
@@ -219,10 +246,10 @@ void avlMenu() {
                 }
                 cout << "choose a node to delete\n";
                 int del;
-                cin>>del;
+                cin >> del;
                 root = deleteNode(root, del);
                 cout << "After deleting " << endl;
-                cout<<"root:\n";
+                cout << "root:\n";
                 if (root != nullptr) {
                     cout << root->key << endl;
                     printTree(root->left, "  ", false);
