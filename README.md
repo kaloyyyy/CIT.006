@@ -1,6 +1,6 @@
 # CIT.006
 data structures and algorithms
-# For basic c++ <br />
+# Basic c++ <br />
 [CIT.004 - coding stuffs xD](https://github.com/kaloyyyy/CIT.004)
 <br/>
 # Object-oriented Programming
