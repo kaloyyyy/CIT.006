@@ -1,4 +1,7 @@
 C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/groupReporting.dir
-C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/triangleNum.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/sample.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/sunny.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/tutorials.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

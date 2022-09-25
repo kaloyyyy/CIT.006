@@ -4,3 +4,5 @@ project(CIT_006)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CIT_006 main.cpp)
+
+add_executable(exer1 exer1.cpp)

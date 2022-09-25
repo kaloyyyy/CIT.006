@@ -27,9 +27,5 @@ int main() {
                 break;
         }
     } while (choice != 'x');
-
     return 0;
 }
-
-
-

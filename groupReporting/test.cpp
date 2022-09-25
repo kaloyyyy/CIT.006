@@ -4,71 +4,46 @@
 #include <iostream>
 using namespace std;
 
-
+bool organicOrNot(){
+    char choice;
+    cout<<"1. organic       2. inorganic\n";
+    cin >> choice;
+    if(choice == 1)
+        return true;
+    else
+        return false;
+}
+int organicCalc(int liquidL){
+    int ovenDried, notDried;
+    int answer;
+    cout<<"input oven dried then not dried values\n";
+    cin>>ovenDried;
+    cin>>notDried;
+    answer = (liquidL-ovenDried)/(liquidL-notDried);
+    return answer;
+}
 int main() {
     //declare variables for the input
     int sieve10, sieve40, sieve200, liquidL, plasticL;
-    cout << "input sieve no.200\n";
-    cin >> sieve200;
-    if (sieve200 > 35) {
-        //finding A-4 and above
-        cout << "input liquid limit\n";
-        cin >> liquidL;
-        cout << "input Plasticity limit\n";
-        cin >> plasticL;
-        if (liquidL > 40) {
-            if (plasticL > 10) {
-                //A-7 etc etc
-                cout << "A-7\n";
-            } else {
-                //A-5
-                cout << "A-5\n";
-            }
-        } else {
-            if (plasticL > 10) {
-                //A-6
-                cout << "A-6\n";
-            } else {
-                //A-4
-                cout << "A-4\n";
-            }
-        }
-    } else if (sieve200 > 25) {
-
-        cout << "input liquid limit\n";
-        cin >> liquidL;
-        cout << "input Plasticity limit\n";
-        cin >> plasticL;
-        if (liquidL > 40) {
-            if (plasticL > 10) {
-                //A-2-7
-                cout << "A-2-7\n";
-            } else {
-                //A-2-5
-                cout << "A-2-5\n";
-            }
-        } else {
-            if (plasticL > 10) {
-                //A-2-6
-                cout << "A-2-6\n";
-            } else {
-                //A-2-4
-                cout << "A-2-4\n";
-            }
+    liquidL = 0;
+    bool organic;
+    int orgNum;
+    cout << "enter Liquid Limit\n";
+    cin >> liquidL;
+    if (liquidL < 50) {
+        orgNum = organicCalc(liquidL);
+        if (orgNum <0.75){
+            cout<<"organic don't panic\n";
+        }else{
+            cout<<"di organic\n";
         }
     } else {
-        // finding A-1 or A-3
-        cout << "enter sieve no. 40\n";
-        cin >> sieve40;
-        if (sieve40 > 50) {
-            //A-3
-            cout << "A-3\n";
-        } else if (sieve40 > 30) {
-            //A-1-b
-            cout << "A-1-b\n";
-        } else {
-            //A-1-a
-            cout << "A-1-a\n";
+        orgNum = organicCalc(liquidL);
+        if (orgNum <0.75){
+            cout<<"organic don't panic\n";
+        }else{
+            cout<<"di organic\n";
         }
     }
 }
+

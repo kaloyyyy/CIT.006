@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "groupReporting",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "groupReporting::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-groupReporting-Debug-5606282b05a72afa2e09.json",
+					"name" : "groupReporting",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample-Debug-ae9d0035d203be3bc2e6.json",
+					"name" : "sample",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sunny::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sunny-Debug-f3f07b2fbb5cd813d930.json",
+					"name" : "sunny",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-2a3d28875d1d643be227.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tutorials::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tutorials-Debug-2140ec570d5bc04922e9.json",
+					"name" : "tutorials",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting/cmake-build-debug",
+		"source" : "C:/Users/kaloy/Documents/GitHub/CIT.006/groupReporting"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
