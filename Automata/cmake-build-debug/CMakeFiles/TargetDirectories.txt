@@ -1,3 +1,5 @@
 C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug/CMakeFiles/Automata.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug/CMakeFiles/sort.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug/CMakeFiles/mergeSort.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug/CMakeFiles/rebuild_cache.dir

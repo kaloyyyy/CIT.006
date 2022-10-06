@@ -15,7 +15,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -30,7 +32,9 @@
 					"name" : "Automata",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1,
+						2
 					]
 				}
 			],
@@ -41,6 +45,20 @@
 					"id" : "Automata::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Automata-Debug-d2fe72fc8052251217ed.json",
 					"name" : "Automata",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mergeSort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mergeSort-Debug-847a6bd00a13303d52a6.json",
+					"name" : "mergeSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sort::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sort-Debug-1ee0071d006b3df3dfda.json",
+					"name" : "sort",
 					"projectIndex" : 0
 				}
 			]
