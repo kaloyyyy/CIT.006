@@ -1,0 +1,139 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/7.5.0/include",
+						"C:/Users/kaloy/Desktop/mingw64/include",
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/7.5.0/include-fixed",
+						"C:/Users/kaloy/Desktop/mingw64/x86_64-w64-mingw32/include",
+						"/MinGW/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/7.5.0",
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc",
+						"C:/Users/kaloy/Desktop/mingw64/x86_64-w64-mingw32/lib",
+						"C:/Users/kaloy/Desktop/mingw64/lib",
+						"/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/Users/kaloy/Desktop/mingw64/bin/gcc.exe",
+				"version" : "7.5.0"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/Users/kaloy/Desktop/mingw64/include/c++/7.5.0",
+						"C:/Users/kaloy/Desktop/mingw64/include/c++/7.5.0/x86_64-w64-mingw32",
+						"C:/Users/kaloy/Desktop/mingw64/include/c++/7.5.0/backward",
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/7.5.0/include",
+						"C:/Users/kaloy/Desktop/mingw64/include",
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/7.5.0/include-fixed",
+						"C:/Users/kaloy/Desktop/mingw64/x86_64-w64-mingw32/include",
+						"/MinGW/include"
+					],
+					"linkDirectories" : 
+					[
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc/x86_64-w64-mingw32/7.5.0",
+						"C:/Users/kaloy/Desktop/mingw64/lib/gcc",
+						"C:/Users/kaloy/Desktop/mingw64/x86_64-w64-mingw32/lib",
+						"C:/Users/kaloy/Desktop/mingw64/lib",
+						"/MinGW/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex",
+						"pthread",
+						"advapi32",
+						"shell32",
+						"user32",
+						"kernel32",
+						"mingw32",
+						"gcc_s",
+						"gcc",
+						"moldname",
+						"mingwex"
+					]
+				},
+				"path" : "C:/Users/kaloy/Desktop/mingw64/bin/c++.exe",
+				"version" : "7.5.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/Users/kaloy/Desktop/mingw64/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

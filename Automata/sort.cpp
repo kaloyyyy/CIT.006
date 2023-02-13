@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-void swap(int *a, int *);
+void swap(int *a, int *b);
 void printArray(int array[], int size, int numSwap);
 void selectionSort(int array[], int size);
 void insertionSort(int array[], int size);

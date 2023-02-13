@@ -1,4 +1,0 @@
-"C:\Program Files\JetBrains\apps\CLion\ch-0\221.5921.27\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/apps/CLion/ch-0/221.5921.27/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\kaloy\Documents\GitHub\CIT.006\Automata -B C:\Users\kaloy\Documents\GitHub\CIT.006\Automata\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug

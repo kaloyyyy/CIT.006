@@ -1,0 +1,4 @@
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/codeforce.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,40 +1,39 @@
-#include <iostream.h>
+#include <iostream>
+using namespace std;
 
 struct node{
-	char name[50];
-	int age;
+	char letter;
+	int number;
 	node *next;
 	};
 
-node *start_ptr=NULL;
+node *start_ptr= nullptr;
 
 void addNode1();
 void displayNode();
 
-void main()
-{
+int main(){
+	addNode1();
+	addNode1();
+	addNode1();
+	addNode1();
 	addNode1();
 	displayNode();
-	cout << endl << endl;
-
-
-	addNode1();
-	displayNode();
-	
+    return 0;
 }
 
 void addNode1()
 {
 	node *addnode = new node;
-	cout << "Enter your friend's name: ";
-	cin.getline(addnode->name,50);
-	cout << "Enter your friend's age: ";
-	cin >> addnode->age;
+	cout << "Enter letter: ";
+	cin>>addnode->letter;
+	cout << "Enter number ";
+	cin >> addnode->number;
 	addnode->next = NULL;
 	cin.ignore();
 	
-	if(start_ptr==NULL)
-		start_ptr=addnode;
+	if(start_ptr==NULL){
+		start_ptr=addnode;}
 	else
 	{
 		addnode->next=start_ptr;
@@ -46,10 +45,10 @@ void addNode1()
 void displayNode()
 {
 	node *temp=start_ptr;
-	cout << endl << "Your friend's list:" << endl;
+	cout << endl << "Your list" << endl;
 	while(temp!=NULL)
 	{
-		cout << temp->name << "\t" << temp->age << "\t" << endl;
+		cout << temp->letter << temp->number << endl;
 		temp=temp->next;
 	}
 }
