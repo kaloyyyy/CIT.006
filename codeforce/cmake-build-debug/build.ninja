@@ -106,6 +106,336 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.o
   TARGET_IMPLIB = libtest.dll.a
   TARGET_PDB = test.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target gluglu
+
+
+#############################################
+# Order-only phony target for gluglu
+
+build cmake_object_order_depends_target_gluglu: phony || CMakeFiles/gluglu.dir
+
+build CMakeFiles/gluglu.dir/gluglu.cpp.obj: CXX_COMPILER__gluglu_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/gluglu.cpp || cmake_object_order_depends_target_gluglu
+  DEP_FILE = CMakeFiles\gluglu.dir\gluglu.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\gluglu.dir
+  OBJECT_FILE_DIR = CMakeFiles\gluglu.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target gluglu
+
+
+#############################################
+# Link the executable gluglu.exe
+
+build gluglu.exe: CXX_EXECUTABLE_LINKER__gluglu_Debug CMakeFiles/gluglu.dir/gluglu.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\gluglu.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = gluglu.exe
+  TARGET_IMPLIB = libgluglu.dll.a
+  TARGET_PDB = gluglu.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target loop
+
+
+#############################################
+# Order-only phony target for loop
+
+build cmake_object_order_depends_target_loop: phony || CMakeFiles/loop.dir
+
+build CMakeFiles/loop.dir/loop.cpp.obj: CXX_COMPILER__loop_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/loop.cpp || cmake_object_order_depends_target_loop
+  DEP_FILE = CMakeFiles\loop.dir\loop.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\loop.dir
+  OBJECT_FILE_DIR = CMakeFiles\loop.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target loop
+
+
+#############################################
+# Link the executable loop.exe
+
+build loop.exe: CXX_EXECUTABLE_LINKER__loop_Debug CMakeFiles/loop.dir/loop.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\loop.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = loop.exe
+  TARGET_IMPLIB = libloop.dll.a
+  TARGET_PDB = loop.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target neg_pos
+
+
+#############################################
+# Order-only phony target for neg_pos
+
+build cmake_object_order_depends_target_neg_pos: phony || CMakeFiles/neg_pos.dir
+
+build CMakeFiles/neg_pos.dir/neg_pos.cpp.obj: CXX_COMPILER__neg_pos_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/neg_pos.cpp || cmake_object_order_depends_target_neg_pos
+  DEP_FILE = CMakeFiles\neg_pos.dir\neg_pos.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\neg_pos.dir
+  OBJECT_FILE_DIR = CMakeFiles\neg_pos.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target neg_pos
+
+
+#############################################
+# Link the executable neg_pos.exe
+
+build neg_pos.exe: CXX_EXECUTABLE_LINKER__neg_pos_Debug CMakeFiles/neg_pos.dir/neg_pos.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\neg_pos.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = neg_pos.exe
+  TARGET_IMPLIB = libneg_pos.dll.a
+  TARGET_PDB = neg_pos.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ewan
+
+
+#############################################
+# Order-only phony target for ewan
+
+build cmake_object_order_depends_target_ewan: phony || CMakeFiles/ewan.dir
+
+build CMakeFiles/ewan.dir/ewan.cpp.obj: CXX_COMPILER__ewan_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/ewan.cpp || cmake_object_order_depends_target_ewan
+  DEP_FILE = CMakeFiles\ewan.dir\ewan.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\ewan.dir
+  OBJECT_FILE_DIR = CMakeFiles\ewan.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ewan
+
+
+#############################################
+# Link the executable ewan.exe
+
+build ewan.exe: CXX_EXECUTABLE_LINKER__ewan_Debug CMakeFiles/ewan.dir/ewan.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ewan.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ewan.exe
+  TARGET_IMPLIB = libewan.dll.a
+  TARGET_PDB = ewan.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target xzcvcxv
+
+
+#############################################
+# Order-only phony target for xzcvcxv
+
+build cmake_object_order_depends_target_xzcvcxv: phony || CMakeFiles/xzcvcxv.dir
+
+build CMakeFiles/xzcvcxv.dir/xzcvcxv.cpp.obj: CXX_COMPILER__xzcvcxv_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/xzcvcxv.cpp || cmake_object_order_depends_target_xzcvcxv
+  DEP_FILE = CMakeFiles\xzcvcxv.dir\xzcvcxv.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\xzcvcxv.dir
+  OBJECT_FILE_DIR = CMakeFiles\xzcvcxv.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target xzcvcxv
+
+
+#############################################
+# Link the executable xzcvcxv.exe
+
+build xzcvcxv.exe: CXX_EXECUTABLE_LINKER__xzcvcxv_Debug CMakeFiles/xzcvcxv.dir/xzcvcxv.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\xzcvcxv.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = xzcvcxv.exe
+  TARGET_IMPLIB = libxzcvcxv.dll.a
+  TARGET_PDB = xzcvcxv.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target c
+
+
+#############################################
+# Order-only phony target for c
+
+build cmake_object_order_depends_target_c: phony || CMakeFiles/c.dir
+
+build CMakeFiles/c.dir/c.cpp.obj: CXX_COMPILER__c_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/c.cpp || cmake_object_order_depends_target_c
+  DEP_FILE = CMakeFiles\c.dir\c.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\c.dir
+  OBJECT_FILE_DIR = CMakeFiles\c.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target c
+
+
+#############################################
+# Link the executable c.exe
+
+build c.exe: CXX_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/c.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = c.exe
+  TARGET_IMPLIB = libc.dll.a
+  TARGET_PDB = c.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target upC
+
+
+#############################################
+# Order-only phony target for upC
+
+build cmake_object_order_depends_target_upC: phony || CMakeFiles/upC.dir
+
+build CMakeFiles/upC.dir/upC.cpp.obj: CXX_COMPILER__upC_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/upC.cpp || cmake_object_order_depends_target_upC
+  DEP_FILE = CMakeFiles\upC.dir\upC.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\upC.dir
+  OBJECT_FILE_DIR = CMakeFiles\upC.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target upC
+
+
+#############################################
+# Link the executable upC.exe
+
+build upC.exe: CXX_EXECUTABLE_LINKER__upC_Debug CMakeFiles/upC.dir/upC.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\upC.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = upC.exe
+  TARGET_IMPLIB = libupC.dll.a
+  TARGET_PDB = upC.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target testrrr
+
+
+#############################################
+# Order-only phony target for testrrr
+
+build cmake_object_order_depends_target_testrrr: phony || CMakeFiles/testrrr.dir
+
+build CMakeFiles/testrrr.dir/testrrr.cpp.obj: CXX_COMPILER__testrrr_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/testrrr.cpp || cmake_object_order_depends_target_testrrr
+  DEP_FILE = CMakeFiles\testrrr.dir\testrrr.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\testrrr.dir
+  OBJECT_FILE_DIR = CMakeFiles\testrrr.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target testrrr
+
+
+#############################################
+# Link the executable testrrr.exe
+
+build testrrr.exe: CXX_EXECUTABLE_LINKER__testrrr_Debug CMakeFiles/testrrr.dir/testrrr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\testrrr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = testrrr.exe
+  TARGET_IMPLIB = libtestrrr.dll.a
+  TARGET_PDB = testrrr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target upcmA
+
+
+#############################################
+# Order-only phony target for upcmA
+
+build cmake_object_order_depends_target_upcmA: phony || CMakeFiles/upcmA.dir
+
+build CMakeFiles/upcmA.dir/upcmA.cpp.obj: CXX_COMPILER__upcmA_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/upcmA.cpp || cmake_object_order_depends_target_upcmA
+  DEP_FILE = CMakeFiles\upcmA.dir\upcmA.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\upcmA.dir
+  OBJECT_FILE_DIR = CMakeFiles\upcmA.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target upcmA
+
+
+#############################################
+# Link the executable upcmA.exe
+
+build upcmA.exe: CXX_EXECUTABLE_LINKER__upcmA_Debug CMakeFiles/upcmA.dir/upcmA.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\upcmA.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = upcmA.exe
+  TARGET_IMPLIB = libupcmA.dll.a
+  TARGET_PDB = upcmA.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target upacmJ
+
+
+#############################################
+# Order-only phony target for upacmJ
+
+build cmake_object_order_depends_target_upacmJ: phony || CMakeFiles/upacmJ.dir
+
+build CMakeFiles/upacmJ.dir/upacmJ.cpp.obj: CXX_COMPILER__upacmJ_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/upacmJ.cpp || cmake_object_order_depends_target_upacmJ
+  DEP_FILE = CMakeFiles\upacmJ.dir\upacmJ.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\upacmJ.dir
+  OBJECT_FILE_DIR = CMakeFiles\upacmJ.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target upacmJ
+
+
+#############################################
+# Link the executable upacmJ.exe
+
+build upacmJ.exe: CXX_EXECUTABLE_LINKER__upacmJ_Debug CMakeFiles/upacmJ.dir/upacmJ.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\upacmJ.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = upacmJ.exe
+  TARGET_IMPLIB = libupacmJ.dll.a
+  TARGET_PDB = upacmJ.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,9 +462,29 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build c: phony c.exe
+
 build codeforce: phony codeforce.exe
 
+build ewan: phony ewan.exe
+
+build gluglu: phony gluglu.exe
+
+build loop: phony loop.exe
+
+build neg_pos: phony neg_pos.exe
+
 build test: phony test.exe
+
+build testrrr: phony testrrr.exe
+
+build upC: phony upC.exe
+
+build upacmJ: phony upacmJ.exe
+
+build upcmA: phony upcmA.exe
+
+build xzcvcxv: phony xzcvcxv.exe
 
 # =============================================================================
 # Folder targets.
@@ -144,7 +494,7 @@ build test: phony test.exe
 #############################################
 # Folder: C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug
 
-build all: phony codeforce.exe test.exe
+build all: phony codeforce.exe test.exe gluglu.exe loop.exe neg_pos.exe ewan.exe xzcvcxv.exe c.exe upC.exe testrrr.exe upcmA.exe upacmJ.exe
 
 # =============================================================================
 # Built-in targets

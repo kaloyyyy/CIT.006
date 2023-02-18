@@ -8,31 +8,52 @@ using namespace std;
 
 struct node {
     string word;
-    int value;
+    char first;
+    char last;
     int *next;
 };
 
 int main() {
-    string arr[10000];
+    struct node *head;;
+    string alpha = " abcdefghijklmnopqrstuvwxyz";
+    map<char, int> alphabets;
+
+    for (int i = 1; i <= 26; i++) {
+        alphabets.insert({alpha[i], i});
+    }
 
     int i = 0, t = 0, n = 0, m = 0;
     cin >> n >> m;
-
-    string S, T;  // declare string variables
+    // declare string variables
+    string S, T;
     cin.ignore();
-    getline(cin, S); // use getline() function to read a line of string and store into S variable.
-
-    stringstream X(S); // X is an object of stringstream that references the S string
+    // use getline() function to read a line of string and store into S variable.
+    getline(cin, S);
+    // X is an object of stringstream that references the S string
+    stringstream X(S);
 
     while (getline(X, T, ' ')) {
-        arr[i]=T;
-        i++;
+        node current = *head;
+        if(head == nullptr){
+            node newNode;
+            newNode.word = T;
+            newNode.first = T[0];
+            newNode.last = T[T.size()-1];
+            newNode.next = nullptr;
+            head = &newNode;
+            current = newNode.next;
+        }else{
+            node newNode;
+            newNode.word = T;
+            newNode.first = T[0];
+            newNode.last = T[T.size()-1];
+            newNode.next = nullptr;
+
+        }
     }
 
     for (i = 0; i < n; i++) {
-        cout << arr[i] << "\n";
+        cout << words[i][0] << "\n";
     }
-/*    for (i = 0; i < 2; i++) {
-        scanf("%d", &arr[i]);
-    }*/
+
 }

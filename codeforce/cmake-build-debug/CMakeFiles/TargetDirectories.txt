@@ -1,4 +1,14 @@
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/codeforce.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/test.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/gluglu.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/loop.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/neg_pos.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/ewan.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/xzcvcxv.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/c.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/upC.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/testrrr.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/upcmA.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/upacmJ.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/rebuild_cache.dir

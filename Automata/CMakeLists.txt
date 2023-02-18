@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(main main.cpp)
 add_executable(sort sort.cpp)
+add_executable(flash flash.cpp)

@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codeforce",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-c-Debug-96521d110c74e9cd1961.json",
+					"name" : "c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "codeforce::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-codeforce-Debug-3f7cc7bda7de713cb9d2.json",
+					"name" : "codeforce",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ewan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ewan-Debug-29a04f0ae838dda1e078.json",
+					"name" : "ewan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gluglu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gluglu-Debug-380470b7d8f36b1c5f13.json",
+					"name" : "gluglu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "loop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-loop-Debug-cde71ac896f6d1e56261.json",
+					"name" : "loop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "neg_pos::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-neg_pos-Debug-217c4b32b4a953f7ca5c.json",
+					"name" : "neg_pos",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-acfd0bc4c5f968f8c32f.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testrrr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testrrr-Debug-0f9536d0965c024f4146.json",
+					"name" : "testrrr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "upC::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-upC-Debug-5654b095e6e2a2b8cbf2.json",
+					"name" : "upC",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "upacmJ::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-upacmJ-Debug-7dbaee04122fafd67345.json",
+					"name" : "upacmJ",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "upcmA::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-upcmA-Debug-2c5080d49f0b2896742d.json",
+					"name" : "upcmA",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "xzcvcxv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-xzcvcxv-Debug-5e228d90d1ebc81dd315.json",
+					"name" : "xzcvcxv",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug",
+		"source" : "C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

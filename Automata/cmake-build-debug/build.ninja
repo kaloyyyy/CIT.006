@@ -106,6 +106,39 @@ build sort.exe: CXX_EXECUTABLE_LINKER__sort_Debug CMakeFiles/sort.dir/sort.cpp.o
   TARGET_IMPLIB = libsort.dll.a
   TARGET_PDB = sort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target flash
+
+
+#############################################
+# Order-only phony target for flash
+
+build cmake_object_order_depends_target_flash: phony || CMakeFiles/flash.dir
+
+build CMakeFiles/flash.dir/flash.cpp.obj: CXX_COMPILER__flash_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/Automata/flash.cpp || cmake_object_order_depends_target_flash
+  DEP_FILE = CMakeFiles\flash.dir\flash.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\flash.dir
+  OBJECT_FILE_DIR = CMakeFiles\flash.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target flash
+
+
+#############################################
+# Link the executable flash.exe
+
+build flash.exe: CXX_EXECUTABLE_LINKER__flash_Debug CMakeFiles/flash.dir/flash.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\flash.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = flash.exe
+  TARGET_IMPLIB = libflash.dll.a
+  TARGET_PDB = flash.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -132,6 +165,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build flash: phony flash.exe
+
 build main: phony main.exe
 
 build sort: phony sort.exe
@@ -144,7 +179,7 @@ build sort: phony sort.exe
 #############################################
 # Folder: C:/Users/kaloy/Documents/GitHub/CIT.006/Automata/cmake-build-debug
 
-build all: phony main.exe sort.exe
+build all: phony main.exe sort.exe flash.exe
 
 # =============================================================================
 # Built-in targets
