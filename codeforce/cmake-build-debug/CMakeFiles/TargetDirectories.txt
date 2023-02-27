@@ -35,5 +35,12 @@ C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/k
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_alcheV2.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_k_v3.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_redundant_v3.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_starA.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_starA_v2.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_alchemV3.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/kal_starA_v3.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/problemsets_71A.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/problemsets_231A.dir
+C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/problemsets_1A.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/CMakeFiles/rebuild_cache.dir

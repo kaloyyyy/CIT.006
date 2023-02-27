@@ -41,13 +41,13 @@ void findRecipe(const string &watToFindXd, unordered_map<string, scratch *> mapS
 
 
 int main() {
-    auto start_time = std::chrono::high_resolution_clock::now();
     ios::sync_with_stdio(false);
     cin.tie(0);
     cout.tie(0);
     int N, Q, R;
     cin >> N >> Q >> R;
-    unordered_map<string, scratch *> mapScratch;
+    auto start_time = std::chrono::high_resolution_clock::now();
+    unordered_map<string, scratch *> mapScratch(N);
     string temp, reciTemp;
     int value;
     for (int i = 0; i < N; i++) {
