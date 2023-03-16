@@ -10,7 +10,6 @@ int main() {
     char curr;
     int count = 0;
     for(int i = 0; i < s.size(); i++){
-        cout<<count<<endl;
         if(curr == s[i]){
             count++;
             if(count == 7){
