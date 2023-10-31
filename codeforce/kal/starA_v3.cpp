@@ -15,11 +15,11 @@ void bfs(vector<int> *pVector, int start) {
         print.insert(s);
         q.pop();
         parent[s] = true;
-        for (int j = pVector[s].size()-1; j>=0; j--) {
+        for (int j = pVector[s].size() - 1; j >= 0; j--) {
             q.push(pVector[s][j]);
             visited[pVector[s][j]] = true;
-            if (parent[pVector[s][j]]){
-                cout<<"IMPOSSIBLE\n";
+            if (parent[pVector[s][j]]) {
+                cout << "IMPOSSIBLE\n";
                 return;
             }
         }
@@ -32,56 +32,56 @@ void bfs(vector<int> *pVector, int start) {
     }
 
 
-    cout<<"\n";
+    cout << "\n";
 }
 
 int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    int t, m, n, start,end, x, y;
+    int t, m, n, start, end, x, y;
     cin >> t;
     bool impossible = false;
-    for (int i = 0; i < t; i++) {
-        cin >> n >> m;
-        vector<int> graph[n + 1];
-        int added[500] = {0};
-        for (int j = 0; j < m; j++) {
-            cin >> x >> y;
-            if (j == 0) {
-                start = x;
-                end = y;
-            }
-            if (y == start) {
-                start = x;
-            }
-            if(end == start){
-                impossible = true;
-            }
-            if (x == end){
-                end = y;
-            }
-            added[y] = 1;
-            added[x] = 1;
-            graph[x].push_back(y);
-        }
-        added[0]=1;
-        for (int j = 0; j < n + 1; j++) {
-            if (added[j] == 0) {
-                added[j] = 1;
-                if (j > start) {
-                    graph[j].push_back(start);
-                    start = j;
 
-                } else {
-                    graph[start].push_back(j);
-                }
-            }
+    cin >> n >> m;
+    vector<int> graph[n + 1];
+    int added[500] = {0};
+    for (int j = 0; j < m; j++) {
+        cin >> x >> y;
+        if (j == 0) {
+            start = x;
+            end = y;
         }
-        if(!impossible){
-            bfs(graph, start);
-        }else{
-            cout<<"IMPOSSIBLE\n";
+        if (y == start) {
+            start = x;
+        }
+        if (end == start) {
+            impossible = true;
+        }
+        if (x == end) {
+            end = y;
+        }
+        added[y] = 1;
+        added[x] = 1;
+        graph[x].push_back(y);
+    }
+    added[0] = 1;
+    for (int j = 0; j < n + 1; j++) {
+        if (added[j] == 0) {
+            added[j] = 1;
+            if (j > start) {
+                graph[j].push_back(start);
+                start = j;
+
+            } else {
+                graph[start].push_back(j);
+            }
         }
     }
+    if (!impossible) {
+        bfs(graph, start);
+    } else {
+        cout << "IMPOSSIBLE\n";
+    }
+
 }

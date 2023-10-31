@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "codeforce",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_110A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_110A-Debug-082be3dccd3632298afd.json",
+					"name" : "problemsets_110A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_734A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_734A-Debug-3829e59f3788ee6f07d7.json",
+					"name" : "problemsets_734A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_997A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_997A-Debug-98482dd826c327cb2ddf.json",
+					"name" : "problemsets_997A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_A::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_A-Debug-5cceb2aac0609db14fc1.json",
+					"name" : "problemsets_AICG_Trial_A",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_B::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_B-Debug-87d89e046fa81a20958c.json",
+					"name" : "problemsets_AICG_Trial_B",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_C-Debug-9b9589bebc108be69e03.json",
+					"name" : "problemsets_AICG_Trial_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_D::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_D-Debug-c6f10b28053671a42acb.json",
+					"name" : "problemsets_AICG_Trial_D",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_E::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_E-Debug-5ac208554a711cad987b.json",
+					"name" : "problemsets_AICG_Trial_E",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_F::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_F-Debug-6c6e894a8afe8a13c715.json",
+					"name" : "problemsets_AICG_Trial_F",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_AICG_Trial_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_AICG_Trial_test-Debug-1b66081dda9ab4b61e57.json",
+					"name" : "problemsets_AICG_Trial_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problemsets_practice_dugtungan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problemsets_practice_dugtungan-Debug-83e2484f2d1202a49ffe.json",
+					"name" : "problemsets_practice_dugtungan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug",
+		"source" : "C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

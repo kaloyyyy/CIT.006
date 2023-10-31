@@ -41,1456 +41,367 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target codeforce
+# Object build statements for EXECUTABLE target problemsets_practice_dugtungan
 
 
 #############################################
-# Order-only phony target for codeforce
+# Order-only phony target for problemsets_practice_dugtungan
 
-build cmake_object_order_depends_target_codeforce: phony || CMakeFiles/codeforce.dir
+build cmake_object_order_depends_target_problemsets_practice_dugtungan: phony || CMakeFiles/problemsets_practice_dugtungan.dir
 
-build CMakeFiles/codeforce.dir/main.cpp.obj: CXX_COMPILER__codeforce_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/main.cpp || cmake_object_order_depends_target_codeforce
-  DEP_FILE = CMakeFiles\codeforce.dir\main.cpp.obj.d
+build CMakeFiles/problemsets_practice_dugtungan.dir/problemsets/practice/dugtungan.cpp.obj: CXX_COMPILER__problemsets_practice_dugtungan_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/practice/dugtungan.cpp || cmake_object_order_depends_target_problemsets_practice_dugtungan
+  DEP_FILE = CMakeFiles\problemsets_practice_dugtungan.dir\problemsets\practice\dugtungan.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\codeforce.dir
-  OBJECT_FILE_DIR = CMakeFiles\codeforce.dir
+  OBJECT_DIR = CMakeFiles\problemsets_practice_dugtungan.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_practice_dugtungan.dir\problemsets\practice
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target codeforce
+# Link build statements for EXECUTABLE target problemsets_practice_dugtungan
 
 
 #############################################
-# Link the executable codeforce.exe
+# Link the executable problemsets_practice_dugtungan.exe
 
-build codeforce.exe: CXX_EXECUTABLE_LINKER__codeforce_Debug CMakeFiles/codeforce.dir/main.cpp.obj
+build problemsets_practice_dugtungan.exe: CXX_EXECUTABLE_LINKER__problemsets_practice_dugtungan_Debug CMakeFiles/problemsets_practice_dugtungan.dir/problemsets/practice/dugtungan.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\codeforce.dir
+  OBJECT_DIR = CMakeFiles\problemsets_practice_dugtungan.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = codeforce.exe
-  TARGET_IMPLIB = libcodeforce.dll.a
-  TARGET_PDB = codeforce.exe.dbg
+  TARGET_FILE = problemsets_practice_dugtungan.exe
+  TARGET_IMPLIB = libproblemsets_practice_dugtungan.dll.a
+  TARGET_PDB = problemsets_practice_dugtungan.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test
+# Object build statements for EXECUTABLE target problemsets_997A
 
 
 #############################################
-# Order-only phony target for test
+# Order-only phony target for problemsets_997A
 
-build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
+build cmake_object_order_depends_target_problemsets_997A: phony || CMakeFiles/problemsets_997A.dir
 
-build CMakeFiles/test.dir/test.cpp.obj: CXX_COMPILER__test_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/test.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles\test.dir\test.cpp.obj.d
+build CMakeFiles/problemsets_997A.dir/problemsets/997A.cpp.obj: CXX_COMPILER__problemsets_997A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/997A.cpp || cmake_object_order_depends_target_problemsets_997A
+  DEP_FILE = CMakeFiles\problemsets_997A.dir\problemsets\997A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\test.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.dir
+  OBJECT_DIR = CMakeFiles\problemsets_997A.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_997A.dir\problemsets
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target test
+# Link build statements for EXECUTABLE target problemsets_997A
 
 
 #############################################
-# Link the executable test.exe
+# Link the executable problemsets_997A.exe
 
-build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test.cpp.obj
+build problemsets_997A.exe: CXX_EXECUTABLE_LINKER__problemsets_997A_Debug CMakeFiles/problemsets_997A.dir/problemsets/997A.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.dir
+  OBJECT_DIR = CMakeFiles\problemsets_997A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = test.exe
-  TARGET_IMPLIB = libtest.dll.a
-  TARGET_PDB = test.exe.dbg
+  TARGET_FILE = problemsets_997A.exe
+  TARGET_IMPLIB = libproblemsets_997A.dll.a
+  TARGET_PDB = problemsets_997A.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target gluglu
+# Object build statements for EXECUTABLE target problemsets_110A
 
 
 #############################################
-# Order-only phony target for gluglu
+# Order-only phony target for problemsets_110A
 
-build cmake_object_order_depends_target_gluglu: phony || CMakeFiles/gluglu.dir
+build cmake_object_order_depends_target_problemsets_110A: phony || CMakeFiles/problemsets_110A.dir
 
-build CMakeFiles/gluglu.dir/gluglu.cpp.obj: CXX_COMPILER__gluglu_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/gluglu.cpp || cmake_object_order_depends_target_gluglu
-  DEP_FILE = CMakeFiles\gluglu.dir\gluglu.cpp.obj.d
+build CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj: CXX_COMPILER__problemsets_110A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/110A.cpp || cmake_object_order_depends_target_problemsets_110A
+  DEP_FILE = CMakeFiles\problemsets_110A.dir\problemsets\110A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\gluglu.dir
-  OBJECT_FILE_DIR = CMakeFiles\gluglu.dir
+  OBJECT_DIR = CMakeFiles\problemsets_110A.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_110A.dir\problemsets
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target gluglu
+# Link build statements for EXECUTABLE target problemsets_110A
 
 
 #############################################
-# Link the executable gluglu.exe
+# Link the executable problemsets_110A.exe
 
-build gluglu.exe: CXX_EXECUTABLE_LINKER__gluglu_Debug CMakeFiles/gluglu.dir/gluglu.cpp.obj
+build problemsets_110A.exe: CXX_EXECUTABLE_LINKER__problemsets_110A_Debug CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\gluglu.dir
+  OBJECT_DIR = CMakeFiles\problemsets_110A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = gluglu.exe
-  TARGET_IMPLIB = libgluglu.dll.a
-  TARGET_PDB = gluglu.exe.dbg
+  TARGET_FILE = problemsets_110A.exe
+  TARGET_IMPLIB = libproblemsets_110A.dll.a
+  TARGET_PDB = problemsets_110A.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target loop
+# Object build statements for EXECUTABLE target problemsets_734A
 
 
 #############################################
-# Order-only phony target for loop
+# Order-only phony target for problemsets_734A
 
-build cmake_object_order_depends_target_loop: phony || CMakeFiles/loop.dir
+build cmake_object_order_depends_target_problemsets_734A: phony || CMakeFiles/problemsets_734A.dir
 
-build CMakeFiles/loop.dir/loop.cpp.obj: CXX_COMPILER__loop_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/loop.cpp || cmake_object_order_depends_target_loop
-  DEP_FILE = CMakeFiles\loop.dir\loop.cpp.obj.d
+build CMakeFiles/problemsets_734A.dir/problemsets/734A.cpp.obj: CXX_COMPILER__problemsets_734A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/734A.cpp || cmake_object_order_depends_target_problemsets_734A
+  DEP_FILE = CMakeFiles\problemsets_734A.dir\problemsets\734A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\loop.dir
-  OBJECT_FILE_DIR = CMakeFiles\loop.dir
+  OBJECT_DIR = CMakeFiles\problemsets_734A.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_734A.dir\problemsets
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target loop
+# Link build statements for EXECUTABLE target problemsets_734A
 
 
 #############################################
-# Link the executable loop.exe
+# Link the executable problemsets_734A.exe
 
-build loop.exe: CXX_EXECUTABLE_LINKER__loop_Debug CMakeFiles/loop.dir/loop.cpp.obj
+build problemsets_734A.exe: CXX_EXECUTABLE_LINKER__problemsets_734A_Debug CMakeFiles/problemsets_734A.dir/problemsets/734A.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\loop.dir
+  OBJECT_DIR = CMakeFiles\problemsets_734A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = loop.exe
-  TARGET_IMPLIB = libloop.dll.a
-  TARGET_PDB = loop.exe.dbg
+  TARGET_FILE = problemsets_734A.exe
+  TARGET_IMPLIB = libproblemsets_734A.dll.a
+  TARGET_PDB = problemsets_734A.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target neg_pos
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_A
 
 
 #############################################
-# Order-only phony target for neg_pos
+# Order-only phony target for problemsets_AICG_Trial_A
 
-build cmake_object_order_depends_target_neg_pos: phony || CMakeFiles/neg_pos.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_A: phony || CMakeFiles/problemsets_AICG_Trial_A.dir
 
-build CMakeFiles/neg_pos.dir/neg_pos.cpp.obj: CXX_COMPILER__neg_pos_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/neg_pos.cpp || cmake_object_order_depends_target_neg_pos
-  DEP_FILE = CMakeFiles\neg_pos.dir\neg_pos.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_A.dir/problemsets/AICG_Trial/A.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/A.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_A
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_A.dir\problemsets\AICG_Trial\A.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\neg_pos.dir
-  OBJECT_FILE_DIR = CMakeFiles\neg_pos.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_A.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_A.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target neg_pos
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_A
 
 
 #############################################
-# Link the executable neg_pos.exe
+# Link the executable problemsets_AICG_Trial_A.exe
 
-build neg_pos.exe: CXX_EXECUTABLE_LINKER__neg_pos_Debug CMakeFiles/neg_pos.dir/neg_pos.cpp.obj
+build problemsets_AICG_Trial_A.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_A_Debug CMakeFiles/problemsets_AICG_Trial_A.dir/problemsets/AICG_Trial/A.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\neg_pos.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_A.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = neg_pos.exe
-  TARGET_IMPLIB = libneg_pos.dll.a
-  TARGET_PDB = neg_pos.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_A.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_A.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_A.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target ewan
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_B
 
 
 #############################################
-# Order-only phony target for ewan
+# Order-only phony target for problemsets_AICG_Trial_B
 
-build cmake_object_order_depends_target_ewan: phony || CMakeFiles/ewan.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_B: phony || CMakeFiles/problemsets_AICG_Trial_B.dir
 
-build CMakeFiles/ewan.dir/ewan.cpp.obj: CXX_COMPILER__ewan_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/ewan.cpp || cmake_object_order_depends_target_ewan
-  DEP_FILE = CMakeFiles\ewan.dir\ewan.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_B.dir/problemsets/AICG_Trial/B.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_B_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/B.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_B
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_B.dir\problemsets\AICG_Trial\B.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\ewan.dir
-  OBJECT_FILE_DIR = CMakeFiles\ewan.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_B.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_B.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target ewan
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_B
 
 
 #############################################
-# Link the executable ewan.exe
+# Link the executable problemsets_AICG_Trial_B.exe
 
-build ewan.exe: CXX_EXECUTABLE_LINKER__ewan_Debug CMakeFiles/ewan.dir/ewan.cpp.obj
+build problemsets_AICG_Trial_B.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_B_Debug CMakeFiles/problemsets_AICG_Trial_B.dir/problemsets/AICG_Trial/B.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\ewan.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_B.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = ewan.exe
-  TARGET_IMPLIB = libewan.dll.a
-  TARGET_PDB = ewan.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_B.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_B.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_B.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target xzcvcxv
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_C
 
 
 #############################################
-# Order-only phony target for xzcvcxv
+# Order-only phony target for problemsets_AICG_Trial_C
 
-build cmake_object_order_depends_target_xzcvcxv: phony || CMakeFiles/xzcvcxv.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_C: phony || CMakeFiles/problemsets_AICG_Trial_C.dir
 
-build CMakeFiles/xzcvcxv.dir/xzcvcxv.cpp.obj: CXX_COMPILER__xzcvcxv_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/xzcvcxv.cpp || cmake_object_order_depends_target_xzcvcxv
-  DEP_FILE = CMakeFiles\xzcvcxv.dir\xzcvcxv.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_C.dir/problemsets/AICG_Trial/C.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_C_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/C.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_C
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_C.dir\problemsets\AICG_Trial\C.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\xzcvcxv.dir
-  OBJECT_FILE_DIR = CMakeFiles\xzcvcxv.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_C.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target xzcvcxv
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_C
 
 
 #############################################
-# Link the executable xzcvcxv.exe
+# Link the executable problemsets_AICG_Trial_C.exe
 
-build xzcvcxv.exe: CXX_EXECUTABLE_LINKER__xzcvcxv_Debug CMakeFiles/xzcvcxv.dir/xzcvcxv.cpp.obj
+build problemsets_AICG_Trial_C.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_C_Debug CMakeFiles/problemsets_AICG_Trial_C.dir/problemsets/AICG_Trial/C.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\xzcvcxv.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_C.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = xzcvcxv.exe
-  TARGET_IMPLIB = libxzcvcxv.dll.a
-  TARGET_PDB = xzcvcxv.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_C.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_C.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_C.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target c
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_D
 
 
 #############################################
-# Order-only phony target for c
+# Order-only phony target for problemsets_AICG_Trial_D
 
-build cmake_object_order_depends_target_c: phony || CMakeFiles/c.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_D: phony || CMakeFiles/problemsets_AICG_Trial_D.dir
 
-build CMakeFiles/c.dir/c.cpp.obj: CXX_COMPILER__c_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/c.cpp || cmake_object_order_depends_target_c
-  DEP_FILE = CMakeFiles\c.dir\c.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_D.dir/problemsets/AICG_Trial/D.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_D_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/D.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_D
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_D.dir\problemsets\AICG_Trial\D.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\c.dir
-  OBJECT_FILE_DIR = CMakeFiles\c.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_D.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_D.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target c
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_D
 
 
 #############################################
-# Link the executable c.exe
+# Link the executable problemsets_AICG_Trial_D.exe
 
-build c.exe: CXX_EXECUTABLE_LINKER__c_Debug CMakeFiles/c.dir/c.cpp.obj
+build problemsets_AICG_Trial_D.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_D_Debug CMakeFiles/problemsets_AICG_Trial_D.dir/problemsets/AICG_Trial/D.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\c.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_D.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = c.exe
-  TARGET_IMPLIB = libc.dll.a
-  TARGET_PDB = c.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_D.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_D.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_D.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target upC
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_E
 
 
 #############################################
-# Order-only phony target for upC
+# Order-only phony target for problemsets_AICG_Trial_E
 
-build cmake_object_order_depends_target_upC: phony || CMakeFiles/upC.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_E: phony || CMakeFiles/problemsets_AICG_Trial_E.dir
 
-build CMakeFiles/upC.dir/upC.cpp.obj: CXX_COMPILER__upC_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/upC.cpp || cmake_object_order_depends_target_upC
-  DEP_FILE = CMakeFiles\upC.dir\upC.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_E.dir/problemsets/AICG_Trial/E.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_E_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/E.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_E
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_E.dir\problemsets\AICG_Trial\E.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\upC.dir
-  OBJECT_FILE_DIR = CMakeFiles\upC.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_E.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_E.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target upC
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_E
 
 
 #############################################
-# Link the executable upC.exe
+# Link the executable problemsets_AICG_Trial_E.exe
 
-build upC.exe: CXX_EXECUTABLE_LINKER__upC_Debug CMakeFiles/upC.dir/upC.cpp.obj
+build problemsets_AICG_Trial_E.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_E_Debug CMakeFiles/problemsets_AICG_Trial_E.dir/problemsets/AICG_Trial/E.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\upC.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_E.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = upC.exe
-  TARGET_IMPLIB = libupC.dll.a
-  TARGET_PDB = upC.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_E.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_E.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_E.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target testrrr
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_F
 
 
 #############################################
-# Order-only phony target for testrrr
+# Order-only phony target for problemsets_AICG_Trial_F
 
-build cmake_object_order_depends_target_testrrr: phony || CMakeFiles/testrrr.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_F: phony || CMakeFiles/problemsets_AICG_Trial_F.dir
 
-build CMakeFiles/testrrr.dir/testrrr.cpp.obj: CXX_COMPILER__testrrr_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/testrrr.cpp || cmake_object_order_depends_target_testrrr
-  DEP_FILE = CMakeFiles\testrrr.dir\testrrr.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_F.dir/problemsets/AICG_Trial/F.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_F_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/F.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_F
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_F.dir\problemsets\AICG_Trial\F.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\testrrr.dir
-  OBJECT_FILE_DIR = CMakeFiles\testrrr.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_F.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_F.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target testrrr
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_F
 
 
 #############################################
-# Link the executable testrrr.exe
+# Link the executable problemsets_AICG_Trial_F.exe
 
-build testrrr.exe: CXX_EXECUTABLE_LINKER__testrrr_Debug CMakeFiles/testrrr.dir/testrrr.cpp.obj
+build problemsets_AICG_Trial_F.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_F_Debug CMakeFiles/problemsets_AICG_Trial_F.dir/problemsets/AICG_Trial/F.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\testrrr.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_F.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = testrrr.exe
-  TARGET_IMPLIB = libtestrrr.dll.a
-  TARGET_PDB = testrrr.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_F.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_F.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_F.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target upcmA
+# Object build statements for EXECUTABLE target problemsets_AICG_Trial_test
 
 
 #############################################
-# Order-only phony target for upcmA
+# Order-only phony target for problemsets_AICG_Trial_test
 
-build cmake_object_order_depends_target_upcmA: phony || CMakeFiles/upcmA.dir
+build cmake_object_order_depends_target_problemsets_AICG_Trial_test: phony || CMakeFiles/problemsets_AICG_Trial_test.dir
 
-build CMakeFiles/upcmA.dir/upcmA.cpp.obj: CXX_COMPILER__upcmA_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/upcmA.cpp || cmake_object_order_depends_target_upcmA
-  DEP_FILE = CMakeFiles\upcmA.dir\upcmA.cpp.obj.d
+build CMakeFiles/problemsets_AICG_Trial_test.dir/problemsets/AICG_Trial/test.cpp.obj: CXX_COMPILER__problemsets_AICG_Trial_test_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/AICG_Trial/test.cpp || cmake_object_order_depends_target_problemsets_AICG_Trial_test
+  DEP_FILE = CMakeFiles\problemsets_AICG_Trial_test.dir\problemsets\AICG_Trial\test.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\upcmA.dir
-  OBJECT_FILE_DIR = CMakeFiles\upcmA.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_test.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_AICG_Trial_test.dir\problemsets\AICG_Trial
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target upcmA
+# Link build statements for EXECUTABLE target problemsets_AICG_Trial_test
 
 
 #############################################
-# Link the executable upcmA.exe
+# Link the executable problemsets_AICG_Trial_test.exe
 
-build upcmA.exe: CXX_EXECUTABLE_LINKER__upcmA_Debug CMakeFiles/upcmA.dir/upcmA.cpp.obj
+build problemsets_AICG_Trial_test.exe: CXX_EXECUTABLE_LINKER__problemsets_AICG_Trial_test_Debug CMakeFiles/problemsets_AICG_Trial_test.dir/problemsets/AICG_Trial/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\upcmA.dir
+  OBJECT_DIR = CMakeFiles\problemsets_AICG_Trial_test.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = upcmA.exe
-  TARGET_IMPLIB = libupcmA.dll.a
-  TARGET_PDB = upcmA.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target upacmJ
-
-
-#############################################
-# Order-only phony target for upacmJ
-
-build cmake_object_order_depends_target_upacmJ: phony || CMakeFiles/upacmJ.dir
-
-build CMakeFiles/upacmJ.dir/upacmJ.cpp.obj: CXX_COMPILER__upacmJ_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/upacmJ.cpp || cmake_object_order_depends_target_upacmJ
-  DEP_FILE = CMakeFiles\upacmJ.dir\upacmJ.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\upacmJ.dir
-  OBJECT_FILE_DIR = CMakeFiles\upacmJ.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target upacmJ
-
-
-#############################################
-# Link the executable upacmJ.exe
-
-build upacmJ.exe: CXX_EXECUTABLE_LINKER__upacmJ_Debug CMakeFiles/upacmJ.dir/upacmJ.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\upacmJ.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = upacmJ.exe
-  TARGET_IMPLIB = libupacmJ.dll.a
-  TARGET_PDB = upacmJ.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target g
-
-
-#############################################
-# Order-only phony target for g
-
-build cmake_object_order_depends_target_g: phony || CMakeFiles/g.dir
-
-build CMakeFiles/g.dir/g.cpp.obj: CXX_COMPILER__g_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/g.cpp || cmake_object_order_depends_target_g
-  DEP_FILE = CMakeFiles\g.dir\g.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\g.dir
-  OBJECT_FILE_DIR = CMakeFiles\g.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target g
-
-
-#############################################
-# Link the executable g.exe
-
-build g.exe: CXX_EXECUTABLE_LINKER__g_Debug CMakeFiles/g.dir/g.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\g.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = g.exe
-  TARGET_IMPLIB = libg.dll.a
-  TARGET_PDB = g.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target g_kaloy
-
-
-#############################################
-# Order-only phony target for g_kaloy
-
-build cmake_object_order_depends_target_g_kaloy: phony || CMakeFiles/g_kaloy.dir
-
-build CMakeFiles/g_kaloy.dir/g_kaloy.cpp.obj: CXX_COMPILER__g_kaloy_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/g_kaloy.cpp || cmake_object_order_depends_target_g_kaloy
-  DEP_FILE = CMakeFiles\g_kaloy.dir\g_kaloy.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\g_kaloy.dir
-  OBJECT_FILE_DIR = CMakeFiles\g_kaloy.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target g_kaloy
-
-
-#############################################
-# Link the executable g_kaloy.exe
-
-build g_kaloy.exe: CXX_EXECUTABLE_LINKER__g_kaloy_Debug CMakeFiles/g_kaloy.dir/g_kaloy.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\g_kaloy.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = g_kaloy.exe
-  TARGET_IMPLIB = libg_kaloy.dll.a
-  TARGET_PDB = g_kaloy.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target k_kal
-
-
-#############################################
-# Order-only phony target for k_kal
-
-build cmake_object_order_depends_target_k_kal: phony || CMakeFiles/k_kal.dir
-
-build CMakeFiles/k_kal.dir/k_kal.cpp.obj: CXX_COMPILER__k_kal_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/k_kal.cpp || cmake_object_order_depends_target_k_kal
-  DEP_FILE = CMakeFiles\k_kal.dir\k_kal.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\k_kal.dir
-  OBJECT_FILE_DIR = CMakeFiles\k_kal.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target k_kal
-
-
-#############################################
-# Link the executable k_kal.exe
-
-build k_kal.exe: CXX_EXECUTABLE_LINKER__k_kal_Debug CMakeFiles/k_kal.dir/k_kal.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\k_kal.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = k_kal.exe
-  TARGET_IMPLIB = libk_kal.dll.a
-  TARGET_PDB = k_kal.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target arstarsarsxzcv
-
-
-#############################################
-# Order-only phony target for arstarsarsxzcv
-
-build cmake_object_order_depends_target_arstarsarsxzcv: phony || CMakeFiles/arstarsarsxzcv.dir
-
-build CMakeFiles/arstarsarsxzcv.dir/arstarsarsxzcv.cpp.obj: CXX_COMPILER__arstarsarsxzcv_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/arstarsarsxzcv.cpp || cmake_object_order_depends_target_arstarsarsxzcv
-  DEP_FILE = CMakeFiles\arstarsarsxzcv.dir\arstarsarsxzcv.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\arstarsarsxzcv.dir
-  OBJECT_FILE_DIR = CMakeFiles\arstarsarsxzcv.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target arstarsarsxzcv
-
-
-#############################################
-# Link the executable arstarsarsxzcv.exe
-
-build arstarsarsxzcv.exe: CXX_EXECUTABLE_LINKER__arstarsarsxzcv_Debug CMakeFiles/arstarsarsxzcv.dir/arstarsarsxzcv.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\arstarsarsxzcv.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = arstarsarsxzcv.exe
-  TARGET_IMPLIB = libarstarsarsxzcv.dll.a
-  TARGET_PDB = arstarsarsxzcv.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target tectK
-
-
-#############################################
-# Order-only phony target for tectK
-
-build cmake_object_order_depends_target_tectK: phony || CMakeFiles/tectK.dir
-
-build CMakeFiles/tectK.dir/tectK.cpp.obj: CXX_COMPILER__tectK_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/tectK.cpp || cmake_object_order_depends_target_tectK
-  DEP_FILE = CMakeFiles\tectK.dir\tectK.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\tectK.dir
-  OBJECT_FILE_DIR = CMakeFiles\tectK.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target tectK
-
-
-#############################################
-# Link the executable tectK.exe
-
-build tectK.exe: CXX_EXECUTABLE_LINKER__tectK_Debug CMakeFiles/tectK.dir/tectK.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\tectK.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = tectK.exe
-  TARGET_IMPLIB = libtectK.dll.a
-  TARGET_PDB = tectK.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target newK_kal
-
-
-#############################################
-# Order-only phony target for newK_kal
-
-build cmake_object_order_depends_target_newK_kal: phony || CMakeFiles/newK_kal.dir
-
-build CMakeFiles/newK_kal.dir/newK_kal.cpp.obj: CXX_COMPILER__newK_kal_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/newK_kal.cpp || cmake_object_order_depends_target_newK_kal
-  DEP_FILE = CMakeFiles\newK_kal.dir\newK_kal.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\newK_kal.dir
-  OBJECT_FILE_DIR = CMakeFiles\newK_kal.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target newK_kal
-
-
-#############################################
-# Link the executable newK_kal.exe
-
-build newK_kal.exe: CXX_EXECUTABLE_LINKER__newK_kal_Debug CMakeFiles/newK_kal.dir/newK_kal.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\newK_kal.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = newK_kal.exe
-  TARGET_IMPLIB = libnewK_kal.dll.a
-  TARGET_PDB = newK_kal.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target newnewnewKKK
-
-
-#############################################
-# Order-only phony target for newnewnewKKK
-
-build cmake_object_order_depends_target_newnewnewKKK: phony || CMakeFiles/newnewnewKKK.dir
-
-build CMakeFiles/newnewnewKKK.dir/newnewnewKKK.cpp.obj: CXX_COMPILER__newnewnewKKK_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/newnewnewKKK.cpp || cmake_object_order_depends_target_newnewnewKKK
-  DEP_FILE = CMakeFiles\newnewnewKKK.dir\newnewnewKKK.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\newnewnewKKK.dir
-  OBJECT_FILE_DIR = CMakeFiles\newnewnewKKK.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target newnewnewKKK
-
-
-#############################################
-# Link the executable newnewnewKKK.exe
-
-build newnewnewKKK.exe: CXX_EXECUTABLE_LINKER__newnewnewKKK_Debug CMakeFiles/newnewnewKKK.dir/newnewnewKKK.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\newnewnewKKK.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = newnewnewKKK.exe
-  TARGET_IMPLIB = libnewnewnewKKK.dll.a
-  TARGET_PDB = newnewnewKKK.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target shenanigans
-
-
-#############################################
-# Order-only phony target for shenanigans
-
-build cmake_object_order_depends_target_shenanigans: phony || CMakeFiles/shenanigans.dir
-
-build CMakeFiles/shenanigans.dir/shenanigans.cpp.obj: CXX_COMPILER__shenanigans_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/shenanigans.cpp || cmake_object_order_depends_target_shenanigans
-  DEP_FILE = CMakeFiles\shenanigans.dir\shenanigans.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\shenanigans.dir
-  OBJECT_FILE_DIR = CMakeFiles\shenanigans.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target shenanigans
-
-
-#############################################
-# Link the executable shenanigans.exe
-
-build shenanigans.exe: CXX_EXECUTABLE_LINKER__shenanigans_Debug CMakeFiles/shenanigans.dir/shenanigans.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\shenanigans.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = shenanigans.exe
-  TARGET_IMPLIB = libshenanigans.dll.a
-  TARGET_PDB = shenanigans.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target g_up_tim
-
-
-#############################################
-# Order-only phony target for g_up_tim
-
-build cmake_object_order_depends_target_g_up_tim: phony || CMakeFiles/g_up_tim.dir
-
-build CMakeFiles/g_up_tim.dir/g_up_tim.cpp.obj: CXX_COMPILER__g_up_tim_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/g_up_tim.cpp || cmake_object_order_depends_target_g_up_tim
-  DEP_FILE = CMakeFiles\g_up_tim.dir\g_up_tim.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\g_up_tim.dir
-  OBJECT_FILE_DIR = CMakeFiles\g_up_tim.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target g_up_tim
-
-
-#############################################
-# Link the executable g_up_tim.exe
-
-build g_up_tim.exe: CXX_EXECUTABLE_LINKER__g_up_tim_Debug CMakeFiles/g_up_tim.dir/g_up_tim.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\g_up_tim.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = g_up_tim.exe
-  TARGET_IMPLIB = libg_up_tim.dll.a
-  TARGET_PDB = g_up_tim.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target tttttttttttttt
-
-
-#############################################
-# Order-only phony target for tttttttttttttt
-
-build cmake_object_order_depends_target_tttttttttttttt: phony || CMakeFiles/tttttttttttttt.dir
-
-build CMakeFiles/tttttttttttttt.dir/tttttttttttttt.cpp.obj: CXX_COMPILER__tttttttttttttt_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/tttttttttttttt.cpp || cmake_object_order_depends_target_tttttttttttttt
-  DEP_FILE = CMakeFiles\tttttttttttttt.dir\tttttttttttttt.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\tttttttttttttt.dir
-  OBJECT_FILE_DIR = CMakeFiles\tttttttttttttt.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target tttttttttttttt
-
-
-#############################################
-# Link the executable tttttttttttttt.exe
-
-build tttttttttttttt.exe: CXX_EXECUTABLE_LINKER__tttttttttttttt_Debug CMakeFiles/tttttttttttttt.dir/tttttttttttttt.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\tttttttttttttt.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = tttttttttttttt.exe
-  TARGET_IMPLIB = libtttttttttttttt.dll.a
-  TARGET_PDB = tttttttttttttt.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target redundant
-
-
-#############################################
-# Order-only phony target for redundant
-
-build cmake_object_order_depends_target_redundant: phony || CMakeFiles/redundant.dir
-
-build CMakeFiles/redundant.dir/redundant.cpp.obj: CXX_COMPILER__redundant_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/redundant.cpp || cmake_object_order_depends_target_redundant
-  DEP_FILE = CMakeFiles\redundant.dir\redundant.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\redundant.dir
-  OBJECT_FILE_DIR = CMakeFiles\redundant.dir
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target redundant
-
-
-#############################################
-# Link the executable redundant.exe
-
-build redundant.exe: CXX_EXECUTABLE_LINKER__redundant_Debug CMakeFiles/redundant.dir/redundant.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\redundant.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = redundant.exe
-  TARGET_IMPLIB = libredundant.dll.a
-  TARGET_PDB = redundant.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_alchem
-
-
-#############################################
-# Order-only phony target for kal_alchem
-
-build cmake_object_order_depends_target_kal_alchem: phony || CMakeFiles/kal_alchem.dir
-
-build CMakeFiles/kal_alchem.dir/kal/alchem.cpp.obj: CXX_COMPILER__kal_alchem_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/alchem.cpp || cmake_object_order_depends_target_kal_alchem
-  DEP_FILE = CMakeFiles\kal_alchem.dir\kal\alchem.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_alchem.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_alchem.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_alchem
-
-
-#############################################
-# Link the executable kal_alchem.exe
-
-build kal_alchem.exe: CXX_EXECUTABLE_LINKER__kal_alchem_Debug CMakeFiles/kal_alchem.dir/kal/alchem.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_alchem.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_alchem.exe
-  TARGET_IMPLIB = libkal_alchem.dll.a
-  TARGET_PDB = kal_alchem.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_modzero
-
-
-#############################################
-# Order-only phony target for kal_modzero
-
-build cmake_object_order_depends_target_kal_modzero: phony || CMakeFiles/kal_modzero.dir
-
-build CMakeFiles/kal_modzero.dir/kal/modzero.cpp.obj: CXX_COMPILER__kal_modzero_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/modzero.cpp || cmake_object_order_depends_target_kal_modzero
-  DEP_FILE = CMakeFiles\kal_modzero.dir\kal\modzero.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_modzero.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_modzero.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_modzero
-
-
-#############################################
-# Link the executable kal_modzero.exe
-
-build kal_modzero.exe: CXX_EXECUTABLE_LINKER__kal_modzero_Debug CMakeFiles/kal_modzero.dir/kal/modzero.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_modzero.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_modzero.exe
-  TARGET_IMPLIB = libkal_modzero.dll.a
-  TARGET_PDB = kal_modzero.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_alTest
-
-
-#############################################
-# Order-only phony target for kal_alTest
-
-build cmake_object_order_depends_target_kal_alTest: phony || CMakeFiles/kal_alTest.dir
-
-build CMakeFiles/kal_alTest.dir/kal/alTest.cpp.obj: CXX_COMPILER__kal_alTest_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/alTest.cpp || cmake_object_order_depends_target_kal_alTest
-  DEP_FILE = CMakeFiles\kal_alTest.dir\kal\alTest.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_alTest.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_alTest.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_alTest
-
-
-#############################################
-# Link the executable kal_alTest.exe
-
-build kal_alTest.exe: CXX_EXECUTABLE_LINKER__kal_alTest_Debug CMakeFiles/kal_alTest.dir/kal/alTest.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_alTest.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_alTest.exe
-  TARGET_IMPLIB = libkal_alTest.dll.a
-  TARGET_PDB = kal_alTest.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_modzero2
-
-
-#############################################
-# Order-only phony target for kal_modzero2
-
-build cmake_object_order_depends_target_kal_modzero2: phony || CMakeFiles/kal_modzero2.dir
-
-build CMakeFiles/kal_modzero2.dir/kal/modzero2.cpp.obj: CXX_COMPILER__kal_modzero2_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/modzero2.cpp || cmake_object_order_depends_target_kal_modzero2
-  DEP_FILE = CMakeFiles\kal_modzero2.dir\kal\modzero2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_modzero2.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_modzero2.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_modzero2
-
-
-#############################################
-# Link the executable kal_modzero2.exe
-
-build kal_modzero2.exe: CXX_EXECUTABLE_LINKER__kal_modzero2_Debug CMakeFiles/kal_modzero2.dir/kal/modzero2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_modzero2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_modzero2.exe
-  TARGET_IMPLIB = libkal_modzero2.dll.a
-  TARGET_PDB = kal_modzero2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_grafittttt
-
-
-#############################################
-# Order-only phony target for kal_grafittttt
-
-build cmake_object_order_depends_target_kal_grafittttt: phony || CMakeFiles/kal_grafittttt.dir
-
-build CMakeFiles/kal_grafittttt.dir/kal/grafittttt.cpp.obj: CXX_COMPILER__kal_grafittttt_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/grafittttt.cpp || cmake_object_order_depends_target_kal_grafittttt
-  DEP_FILE = CMakeFiles\kal_grafittttt.dir\kal\grafittttt.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_grafittttt.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_grafittttt.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_grafittttt
-
-
-#############################################
-# Link the executable kal_grafittttt.exe
-
-build kal_grafittttt.exe: CXX_EXECUTABLE_LINKER__kal_grafittttt_Debug CMakeFiles/kal_grafittttt.dir/kal/grafittttt.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_grafittttt.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_grafittttt.exe
-  TARGET_IMPLIB = libkal_grafittttt.dll.a
-  TARGET_PDB = kal_grafittttt.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_redundant
-
-
-#############################################
-# Order-only phony target for kal_redundant
-
-build cmake_object_order_depends_target_kal_redundant: phony || CMakeFiles/kal_redundant.dir
-
-build CMakeFiles/kal_redundant.dir/kal/redundant.cpp.obj: CXX_COMPILER__kal_redundant_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/redundant.cpp || cmake_object_order_depends_target_kal_redundant
-  DEP_FILE = CMakeFiles\kal_redundant.dir\kal\redundant.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_redundant.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_redundant.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_redundant
-
-
-#############################################
-# Link the executable kal_redundant.exe
-
-build kal_redundant.exe: CXX_EXECUTABLE_LINKER__kal_redundant_Debug CMakeFiles/kal_redundant.dir/kal/redundant.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_redundant.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_redundant.exe
-  TARGET_IMPLIB = libkal_redundant.dll.a
-  TARGET_PDB = kal_redundant.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_redundanceTwo
-
-
-#############################################
-# Order-only phony target for kal_redundanceTwo
-
-build cmake_object_order_depends_target_kal_redundanceTwo: phony || CMakeFiles/kal_redundanceTwo.dir
-
-build CMakeFiles/kal_redundanceTwo.dir/kal/redundanceTwo.cpp.obj: CXX_COMPILER__kal_redundanceTwo_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/redundanceTwo.cpp || cmake_object_order_depends_target_kal_redundanceTwo
-  DEP_FILE = CMakeFiles\kal_redundanceTwo.dir\kal\redundanceTwo.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_redundanceTwo.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_redundanceTwo.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_redundanceTwo
-
-
-#############################################
-# Link the executable kal_redundanceTwo.exe
-
-build kal_redundanceTwo.exe: CXX_EXECUTABLE_LINKER__kal_redundanceTwo_Debug CMakeFiles/kal_redundanceTwo.dir/kal/redundanceTwo.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_redundanceTwo.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_redundanceTwo.exe
-  TARGET_IMPLIB = libkal_redundanceTwo.dll.a
-  TARGET_PDB = kal_redundanceTwo.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_K_v1
-
-
-#############################################
-# Order-only phony target for kal_K_v1
-
-build cmake_object_order_depends_target_kal_K_v1: phony || CMakeFiles/kal_K_v1.dir
-
-build CMakeFiles/kal_K_v1.dir/kal/K_v1.cpp.obj: CXX_COMPILER__kal_K_v1_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/K_v1.cpp || cmake_object_order_depends_target_kal_K_v1
-  DEP_FILE = CMakeFiles\kal_K_v1.dir\kal\K_v1.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_K_v1.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_K_v1.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_K_v1
-
-
-#############################################
-# Link the executable kal_K_v1.exe
-
-build kal_K_v1.exe: CXX_EXECUTABLE_LINKER__kal_K_v1_Debug CMakeFiles/kal_K_v1.dir/kal/K_v1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_K_v1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_K_v1.exe
-  TARGET_IMPLIB = libkal_K_v1.dll.a
-  TARGET_PDB = kal_K_v1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_comi
-
-
-#############################################
-# Order-only phony target for kal_comi
-
-build cmake_object_order_depends_target_kal_comi: phony || CMakeFiles/kal_comi.dir
-
-build CMakeFiles/kal_comi.dir/kal/comi.cpp.obj: CXX_COMPILER__kal_comi_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/comi.cpp || cmake_object_order_depends_target_kal_comi
-  DEP_FILE = CMakeFiles\kal_comi.dir\kal\comi.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_comi.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_comi.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_comi
-
-
-#############################################
-# Link the executable kal_comi.exe
-
-build kal_comi.exe: CXX_EXECUTABLE_LINKER__kal_comi_Debug CMakeFiles/kal_comi.dir/kal/comi.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_comi.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_comi.exe
-  TARGET_IMPLIB = libkal_comi.dll.a
-  TARGET_PDB = kal_comi.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_k_v2
-
-
-#############################################
-# Order-only phony target for kal_k_v2
-
-build cmake_object_order_depends_target_kal_k_v2: phony || CMakeFiles/kal_k_v2.dir
-
-build CMakeFiles/kal_k_v2.dir/kal/k_v2.cpp.obj: CXX_COMPILER__kal_k_v2_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/k_v2.cpp || cmake_object_order_depends_target_kal_k_v2
-  DEP_FILE = CMakeFiles\kal_k_v2.dir\kal\k_v2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_k_v2.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_k_v2.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_k_v2
-
-
-#############################################
-# Link the executable kal_k_v2.exe
-
-build kal_k_v2.exe: CXX_EXECUTABLE_LINKER__kal_k_v2_Debug CMakeFiles/kal_k_v2.dir/kal/k_v2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_k_v2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_k_v2.exe
-  TARGET_IMPLIB = libkal_k_v2.dll.a
-  TARGET_PDB = kal_k_v2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_testCase
-
-
-#############################################
-# Order-only phony target for kal_testCase
-
-build cmake_object_order_depends_target_kal_testCase: phony || CMakeFiles/kal_testCase.dir
-
-build CMakeFiles/kal_testCase.dir/kal/testCase.cpp.obj: CXX_COMPILER__kal_testCase_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/testCase.cpp || cmake_object_order_depends_target_kal_testCase
-  DEP_FILE = CMakeFiles\kal_testCase.dir\kal\testCase.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_testCase.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_testCase.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_testCase
-
-
-#############################################
-# Link the executable kal_testCase.exe
-
-build kal_testCase.exe: CXX_EXECUTABLE_LINKER__kal_testCase_Debug CMakeFiles/kal_testCase.dir/kal/testCase.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_testCase.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_testCase.exe
-  TARGET_IMPLIB = libkal_testCase.dll.a
-  TARGET_PDB = kal_testCase.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_alcheV2
-
-
-#############################################
-# Order-only phony target for kal_alcheV2
-
-build cmake_object_order_depends_target_kal_alcheV2: phony || CMakeFiles/kal_alcheV2.dir
-
-build CMakeFiles/kal_alcheV2.dir/kal/alcheV2.cpp.obj: CXX_COMPILER__kal_alcheV2_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/alcheV2.cpp || cmake_object_order_depends_target_kal_alcheV2
-  DEP_FILE = CMakeFiles\kal_alcheV2.dir\kal\alcheV2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_alcheV2.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_alcheV2.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_alcheV2
-
-
-#############################################
-# Link the executable kal_alcheV2.exe
-
-build kal_alcheV2.exe: CXX_EXECUTABLE_LINKER__kal_alcheV2_Debug CMakeFiles/kal_alcheV2.dir/kal/alcheV2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_alcheV2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_alcheV2.exe
-  TARGET_IMPLIB = libkal_alcheV2.dll.a
-  TARGET_PDB = kal_alcheV2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_k_v3
-
-
-#############################################
-# Order-only phony target for kal_k_v3
-
-build cmake_object_order_depends_target_kal_k_v3: phony || CMakeFiles/kal_k_v3.dir
-
-build CMakeFiles/kal_k_v3.dir/kal/k_v3.cpp.obj: CXX_COMPILER__kal_k_v3_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/k_v3.cpp || cmake_object_order_depends_target_kal_k_v3
-  DEP_FILE = CMakeFiles\kal_k_v3.dir\kal\k_v3.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_k_v3.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_k_v3.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_k_v3
-
-
-#############################################
-# Link the executable kal_k_v3.exe
-
-build kal_k_v3.exe: CXX_EXECUTABLE_LINKER__kal_k_v3_Debug CMakeFiles/kal_k_v3.dir/kal/k_v3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_k_v3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_k_v3.exe
-  TARGET_IMPLIB = libkal_k_v3.dll.a
-  TARGET_PDB = kal_k_v3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_redundant_v3
-
-
-#############################################
-# Order-only phony target for kal_redundant_v3
-
-build cmake_object_order_depends_target_kal_redundant_v3: phony || CMakeFiles/kal_redundant_v3.dir
-
-build CMakeFiles/kal_redundant_v3.dir/kal/redundant_v3.cpp.obj: CXX_COMPILER__kal_redundant_v3_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/redundant_v3.cpp || cmake_object_order_depends_target_kal_redundant_v3
-  DEP_FILE = CMakeFiles\kal_redundant_v3.dir\kal\redundant_v3.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_redundant_v3.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_redundant_v3.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_redundant_v3
-
-
-#############################################
-# Link the executable kal_redundant_v3.exe
-
-build kal_redundant_v3.exe: CXX_EXECUTABLE_LINKER__kal_redundant_v3_Debug CMakeFiles/kal_redundant_v3.dir/kal/redundant_v3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_redundant_v3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_redundant_v3.exe
-  TARGET_IMPLIB = libkal_redundant_v3.dll.a
-  TARGET_PDB = kal_redundant_v3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_starA
-
-
-#############################################
-# Order-only phony target for kal_starA
-
-build cmake_object_order_depends_target_kal_starA: phony || CMakeFiles/kal_starA.dir
-
-build CMakeFiles/kal_starA.dir/kal/starA.cpp.obj: CXX_COMPILER__kal_starA_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/starA.cpp || cmake_object_order_depends_target_kal_starA
-  DEP_FILE = CMakeFiles\kal_starA.dir\kal\starA.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_starA.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_starA.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_starA
-
-
-#############################################
-# Link the executable kal_starA.exe
-
-build kal_starA.exe: CXX_EXECUTABLE_LINKER__kal_starA_Debug CMakeFiles/kal_starA.dir/kal/starA.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_starA.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_starA.exe
-  TARGET_IMPLIB = libkal_starA.dll.a
-  TARGET_PDB = kal_starA.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_starA_v2
-
-
-#############################################
-# Order-only phony target for kal_starA_v2
-
-build cmake_object_order_depends_target_kal_starA_v2: phony || CMakeFiles/kal_starA_v2.dir
-
-build CMakeFiles/kal_starA_v2.dir/kal/starA_v2.cpp.obj: CXX_COMPILER__kal_starA_v2_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/starA_v2.cpp || cmake_object_order_depends_target_kal_starA_v2
-  DEP_FILE = CMakeFiles\kal_starA_v2.dir\kal\starA_v2.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_starA_v2.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_starA_v2.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_starA_v2
-
-
-#############################################
-# Link the executable kal_starA_v2.exe
-
-build kal_starA_v2.exe: CXX_EXECUTABLE_LINKER__kal_starA_v2_Debug CMakeFiles/kal_starA_v2.dir/kal/starA_v2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_starA_v2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_starA_v2.exe
-  TARGET_IMPLIB = libkal_starA_v2.dll.a
-  TARGET_PDB = kal_starA_v2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_alchemV3
-
-
-#############################################
-# Order-only phony target for kal_alchemV3
-
-build cmake_object_order_depends_target_kal_alchemV3: phony || CMakeFiles/kal_alchemV3.dir
-
-build CMakeFiles/kal_alchemV3.dir/kal/alchemV3.cpp.obj: CXX_COMPILER__kal_alchemV3_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/alchemV3.cpp || cmake_object_order_depends_target_kal_alchemV3
-  DEP_FILE = CMakeFiles\kal_alchemV3.dir\kal\alchemV3.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_alchemV3.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_alchemV3.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_alchemV3
-
-
-#############################################
-# Link the executable kal_alchemV3.exe
-
-build kal_alchemV3.exe: CXX_EXECUTABLE_LINKER__kal_alchemV3_Debug CMakeFiles/kal_alchemV3.dir/kal/alchemV3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_alchemV3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_alchemV3.exe
-  TARGET_IMPLIB = libkal_alchemV3.dll.a
-  TARGET_PDB = kal_alchemV3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target kal_starA_v3
-
-
-#############################################
-# Order-only phony target for kal_starA_v3
-
-build cmake_object_order_depends_target_kal_starA_v3: phony || CMakeFiles/kal_starA_v3.dir
-
-build CMakeFiles/kal_starA_v3.dir/kal/starA_v3.cpp.obj: CXX_COMPILER__kal_starA_v3_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/kal/starA_v3.cpp || cmake_object_order_depends_target_kal_starA_v3
-  DEP_FILE = CMakeFiles\kal_starA_v3.dir\kal\starA_v3.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\kal_starA_v3.dir
-  OBJECT_FILE_DIR = CMakeFiles\kal_starA_v3.dir\kal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target kal_starA_v3
-
-
-#############################################
-# Link the executable kal_starA_v3.exe
-
-build kal_starA_v3.exe: CXX_EXECUTABLE_LINKER__kal_starA_v3_Debug CMakeFiles/kal_starA_v3.dir/kal/starA_v3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\kal_starA_v3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = kal_starA_v3.exe
-  TARGET_IMPLIB = libkal_starA_v3.dll.a
-  TARGET_PDB = kal_starA_v3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target problemsets_71A
-
-
-#############################################
-# Order-only phony target for problemsets_71A
-
-build cmake_object_order_depends_target_problemsets_71A: phony || CMakeFiles/problemsets_71A.dir
-
-build CMakeFiles/problemsets_71A.dir/problemsets/71A.cpp.obj: CXX_COMPILER__problemsets_71A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/71A.cpp || cmake_object_order_depends_target_problemsets_71A
-  DEP_FILE = CMakeFiles\problemsets_71A.dir\problemsets\71A.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\problemsets_71A.dir
-  OBJECT_FILE_DIR = CMakeFiles\problemsets_71A.dir\problemsets
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target problemsets_71A
-
-
-#############################################
-# Link the executable problemsets_71A.exe
-
-build problemsets_71A.exe: CXX_EXECUTABLE_LINKER__problemsets_71A_Debug CMakeFiles/problemsets_71A.dir/problemsets/71A.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\problemsets_71A.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = problemsets_71A.exe
-  TARGET_IMPLIB = libproblemsets_71A.dll.a
-  TARGET_PDB = problemsets_71A.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target problemsets_231A
-
-
-#############################################
-# Order-only phony target for problemsets_231A
-
-build cmake_object_order_depends_target_problemsets_231A: phony || CMakeFiles/problemsets_231A.dir
-
-build CMakeFiles/problemsets_231A.dir/problemsets/231A.cpp.obj: CXX_COMPILER__problemsets_231A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/231A.cpp || cmake_object_order_depends_target_problemsets_231A
-  DEP_FILE = CMakeFiles\problemsets_231A.dir\problemsets\231A.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\problemsets_231A.dir
-  OBJECT_FILE_DIR = CMakeFiles\problemsets_231A.dir\problemsets
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target problemsets_231A
-
-
-#############################################
-# Link the executable problemsets_231A.exe
-
-build problemsets_231A.exe: CXX_EXECUTABLE_LINKER__problemsets_231A_Debug CMakeFiles/problemsets_231A.dir/problemsets/231A.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\problemsets_231A.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = problemsets_231A.exe
-  TARGET_IMPLIB = libproblemsets_231A.dll.a
-  TARGET_PDB = problemsets_231A.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target problemsets_1A
-
-
-#############################################
-# Order-only phony target for problemsets_1A
-
-build cmake_object_order_depends_target_problemsets_1A: phony || CMakeFiles/problemsets_1A.dir
-
-build CMakeFiles/problemsets_1A.dir/problemsets/1A.cpp.obj: CXX_COMPILER__problemsets_1A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/problemsets/1A.cpp || cmake_object_order_depends_target_problemsets_1A
-  DEP_FILE = CMakeFiles\problemsets_1A.dir\problemsets\1A.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
-  OBJECT_DIR = CMakeFiles\problemsets_1A.dir
-  OBJECT_FILE_DIR = CMakeFiles\problemsets_1A.dir\problemsets
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target problemsets_1A
-
-
-#############################################
-# Link the executable problemsets_1A.exe
-
-build problemsets_1A.exe: CXX_EXECUTABLE_LINKER__problemsets_1A_Debug CMakeFiles/problemsets_1A.dir/problemsets/1A.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\problemsets_1A.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = problemsets_1A.exe
-  TARGET_IMPLIB = libproblemsets_1A.dll.a
-  TARGET_PDB = problemsets_1A.exe.dbg
+  TARGET_FILE = problemsets_AICG_Trial_test.exe
+  TARGET_IMPLIB = libproblemsets_AICG_Trial_test.dll.a
+  TARGET_PDB = problemsets_AICG_Trial_test.exe.dbg
 
 
 #############################################
@@ -1518,93 +429,27 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build arstarsarsxzcv: phony arstarsarsxzcv.exe
+build problemsets_110A: phony problemsets_110A.exe
 
-build c: phony c.exe
+build problemsets_734A: phony problemsets_734A.exe
 
-build codeforce: phony codeforce.exe
+build problemsets_997A: phony problemsets_997A.exe
 
-build ewan: phony ewan.exe
+build problemsets_AICG_Trial_A: phony problemsets_AICG_Trial_A.exe
 
-build g: phony g.exe
+build problemsets_AICG_Trial_B: phony problemsets_AICG_Trial_B.exe
 
-build g_kaloy: phony g_kaloy.exe
+build problemsets_AICG_Trial_C: phony problemsets_AICG_Trial_C.exe
 
-build g_up_tim: phony g_up_tim.exe
+build problemsets_AICG_Trial_D: phony problemsets_AICG_Trial_D.exe
 
-build gluglu: phony gluglu.exe
+build problemsets_AICG_Trial_E: phony problemsets_AICG_Trial_E.exe
 
-build k_kal: phony k_kal.exe
+build problemsets_AICG_Trial_F: phony problemsets_AICG_Trial_F.exe
 
-build kal_K_v1: phony kal_K_v1.exe
+build problemsets_AICG_Trial_test: phony problemsets_AICG_Trial_test.exe
 
-build kal_alTest: phony kal_alTest.exe
-
-build kal_alcheV2: phony kal_alcheV2.exe
-
-build kal_alchem: phony kal_alchem.exe
-
-build kal_alchemV3: phony kal_alchemV3.exe
-
-build kal_comi: phony kal_comi.exe
-
-build kal_grafittttt: phony kal_grafittttt.exe
-
-build kal_k_v2: phony kal_k_v2.exe
-
-build kal_k_v3: phony kal_k_v3.exe
-
-build kal_modzero: phony kal_modzero.exe
-
-build kal_modzero2: phony kal_modzero2.exe
-
-build kal_redundanceTwo: phony kal_redundanceTwo.exe
-
-build kal_redundant: phony kal_redundant.exe
-
-build kal_redundant_v3: phony kal_redundant_v3.exe
-
-build kal_starA: phony kal_starA.exe
-
-build kal_starA_v2: phony kal_starA_v2.exe
-
-build kal_starA_v3: phony kal_starA_v3.exe
-
-build kal_testCase: phony kal_testCase.exe
-
-build loop: phony loop.exe
-
-build neg_pos: phony neg_pos.exe
-
-build newK_kal: phony newK_kal.exe
-
-build newnewnewKKK: phony newnewnewKKK.exe
-
-build problemsets_1A: phony problemsets_1A.exe
-
-build problemsets_231A: phony problemsets_231A.exe
-
-build problemsets_71A: phony problemsets_71A.exe
-
-build redundant: phony redundant.exe
-
-build shenanigans: phony shenanigans.exe
-
-build tectK: phony tectK.exe
-
-build test: phony test.exe
-
-build testrrr: phony testrrr.exe
-
-build tttttttttttttt: phony tttttttttttttt.exe
-
-build upC: phony upC.exe
-
-build upacmJ: phony upacmJ.exe
-
-build upcmA: phony upcmA.exe
-
-build xzcvcxv: phony xzcvcxv.exe
+build problemsets_practice_dugtungan: phony problemsets_practice_dugtungan.exe
 
 # =============================================================================
 # Folder targets.
@@ -1614,7 +459,7 @@ build xzcvcxv: phony xzcvcxv.exe
 #############################################
 # Folder: C:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/cmake-build-debug
 
-build all: phony codeforce.exe test.exe gluglu.exe loop.exe neg_pos.exe ewan.exe xzcvcxv.exe c.exe upC.exe testrrr.exe upcmA.exe upacmJ.exe g.exe g_kaloy.exe k_kal.exe arstarsarsxzcv.exe tectK.exe newK_kal.exe newnewnewKKK.exe shenanigans.exe g_up_tim.exe tttttttttttttt.exe redundant.exe kal_alchem.exe kal_modzero.exe kal_alTest.exe kal_modzero2.exe kal_grafittttt.exe kal_redundant.exe kal_redundanceTwo.exe kal_K_v1.exe kal_comi.exe kal_k_v2.exe kal_testCase.exe kal_alcheV2.exe kal_k_v3.exe kal_redundant_v3.exe kal_starA.exe kal_starA_v2.exe kal_alchemV3.exe kal_starA_v3.exe problemsets_71A.exe problemsets_231A.exe problemsets_1A.exe
+build all: phony problemsets_practice_dugtungan.exe problemsets_997A.exe problemsets_110A.exe problemsets_734A.exe problemsets_AICG_Trial_A.exe problemsets_AICG_Trial_B.exe problemsets_AICG_Trial_C.exe problemsets_AICG_Trial_D.exe problemsets_AICG_Trial_E.exe problemsets_AICG_Trial_F.exe problemsets_AICG_Trial_test.exe
 
 # =============================================================================
 # Built-in targets
