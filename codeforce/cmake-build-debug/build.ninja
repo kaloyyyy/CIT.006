@@ -121,6 +121,18 @@ build CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj: CXX_COMPILER__pr
   OBJECT_DIR = CMakeFiles\problemsets_110A.dir
   OBJECT_FILE_DIR = CMakeFiles\problemsets_110A.dir\problemsets
 
+build CMakeFiles/problemsets_110A.dir/Algolympics_2024/D.cpp.obj: CXX_COMPILER__problemsets_110A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/Algolympics$ 2024/D.cpp || cmake_object_order_depends_target_problemsets_110A
+  DEP_FILE = CMakeFiles\problemsets_110A.dir\Algolympics_2024\D.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\problemsets_110A.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_110A.dir\Algolympics_2024
+
+build CMakeFiles/problemsets_110A.dir/test.cpp.obj: CXX_COMPILER__problemsets_110A_Debug C$:/Users/kaloy/Documents/GitHub/CIT.006/codeforce/test.cpp || cmake_object_order_depends_target_problemsets_110A
+  DEP_FILE = CMakeFiles\problemsets_110A.dir\test.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++1z
+  OBJECT_DIR = CMakeFiles\problemsets_110A.dir
+  OBJECT_FILE_DIR = CMakeFiles\problemsets_110A.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target problemsets_110A
@@ -129,7 +141,7 @@ build CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj: CXX_COMPILER__pr
 #############################################
 # Link the executable problemsets_110A.exe
 
-build problemsets_110A.exe: CXX_EXECUTABLE_LINKER__problemsets_110A_Debug CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj
+build problemsets_110A.exe: CXX_EXECUTABLE_LINKER__problemsets_110A_Debug CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj CMakeFiles/problemsets_110A.dir/Algolympics_2024/D.cpp.obj CMakeFiles/problemsets_110A.dir/test.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problemsets_110A.dir

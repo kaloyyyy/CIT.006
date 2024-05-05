@@ -1,5 +1,5 @@
 # ninja log v5
-7	713	7101265192462063	build.ninja	f97d761538e56c5a
+7	713	7298079894105728	build.ninja	f97d761538e56c5a
 4	1833	6992863994310722	CMakeFiles/problemsets_118A.dir/problemsets/118A.cpp.obj	cf7773b45816d3cd
 3	2751	6993639415800941	CMakeFiles/yes.dir/yes.cpp.obj	f21d0659a708e6e4
 1957	2156	6994024299129519	problemsets_791A.exe	a7d94192ced9059b
@@ -44,7 +44,5 @@
 1867	2036	7011742504764942	problemsets_chess.exe	e2f14e9a88712bbd
 4	2498	7016422472881610	CMakeFiles/problemsets_110A.dir/problemsets/110A.cpp.obj	88b70031ba63d641
 1	7112	7063211172779642	CMakeFiles/problemsets_AICG_Trial_D.dir/problemsets/AICG_Trial/D.cpp.obj	f287c634922cf4d3
-1	3192	7101265828116305	CMakeFiles/problemsets_AICG_Trial_test.dir/problemsets/AICG_Trial/test.cpp.obj	1dc16b5302037ec1
-3194	4267	7101265838766308	problemsets_AICG_Trial_test.exe	9aea3a161f1abbae
 7	2275	7101266505076443	CMakeFiles/problemsets_AICG_Trial_test.dir/problemsets/AICG_Trial/test.cpp.obj	1dc16b5302037ec1
 2276	2980	7101266512080032	problemsets_AICG_Trial_test.exe	9aea3a161f1abbae
